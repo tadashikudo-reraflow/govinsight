@@ -35,10 +35,14 @@ jobs:
       - name: Run ETL
         run: |
           cd etl
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
           python main.py \
             --data-dir /tmp/govinsight-data \
             --output-dir ../public/data \
-            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+            $DRY_RUN_FLAG
 
       - name: Commit updated data
         if: ${{ github.event.inputs.dry_run != 'true' }}
