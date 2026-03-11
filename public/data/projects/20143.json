@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20143",
   "name": "輸出入・港湾関連情報処理システム（ＮＡＣＣＳ）（税関）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "随意契約（その他）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "ＮＡＣＣＳを利用することにより、迅速かつ効率的な税関業務を実施している。",
+      "improvement": "引き続き、ＮＡＣＣＳを利用し、迅速かつ効率的な税関業務を実施する。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

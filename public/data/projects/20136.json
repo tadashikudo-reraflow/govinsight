@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20136",
   "name": "特殊車両通行許可システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -188,6 +188,16 @@
       "amount": null,
       "contract_type": "随意契約（公募）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "・当該予算の執行は国土交通省（地方整備局等）で実施しており、全ての支出先を把握している。・契約内容の妥当性については、過去の作業量を考慮したうえで仕様書の内容を決定している。",
+      "improvement": "--",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

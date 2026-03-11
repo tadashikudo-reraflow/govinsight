@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5560",
   "name": "デジタル推進委員等環境整備事業",
   "ministry": "デジタル庁",
@@ -190,6 +190,16 @@
       "amount": null,
       "contract_type": "随意契約（少額）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "・アクティビティについて、短期・長期とも測定指標は順調に推移している。",
+      "improvement": "・アクティビティについて、目標年度に向けて引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": "終了予定"
     }
   ],
   "procurements": [

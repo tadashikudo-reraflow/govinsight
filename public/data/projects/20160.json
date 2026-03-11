@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20160",
   "name": "国税庁ＬＡＮシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2004",
   "endYear": "2026",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 15599400000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -708,5 +708,25 @@
       "block": ""
     }
   ],
-  "procurements": []
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "国税庁ＬＡＮシステムは、職員が利用する情報共有の機能や認証機能などを提供し、国税情報システム等の基幹システムを利用するための基盤として、システムの安定運用を行っている。",
+      "improvement": "令和８年度のガバメントソリューションサービス環境への移行までの期間は、引き続きシステムの安定運用を行い、事務の効率化を目指す。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
+  "procurements": [
+    {
+      "id": "0000000000000471473",
+      "name": "令和７年度国税庁等のガバメントソリューションサービス移行に係る端末の借入等",
+      "awardDate": "2025-03-27",
+      "price": 15599400000.0,
+      "vendorName": "日本電気株式会社",
+      "corporateNumber": "7010401022916",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

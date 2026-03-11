@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20366",
   "name": "人事基本情報DBシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -46,6 +46,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "効率的・効果的な人事管理を行うための人事基本情報DBを構築し、活動・成果目標等の実現状況をみつつ、改善を図ることとする。",
+      "improvement": "",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5559",
   "name": "サイバーセキュリティ対策等事業費",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 17500000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -348,5 +348,25 @@
       "block": ""
     }
   ],
-  "procurements": []
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ①～③について、測定指標は順調に推移している。",
+      "improvement": "アクティビティ①～③について、引き続き成果目標に向け適切に実施していく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
+    }
+  ],
+  "procurements": [
+    {
+      "id": "0000000000000530230",
+      "name": "セキュリティ・バイ・デザインの浸透を目的とした実践研修等の整備・拡充にかかる調査研究",
+      "awardDate": "2025-07-23",
+      "price": 17500000.0,
+      "vendorName": "株式会社ラック",
+      "corporateNumber": "7010001134137",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

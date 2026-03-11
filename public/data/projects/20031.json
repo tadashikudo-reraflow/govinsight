@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20031",
   "name": "検察総合情報管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -608,6 +608,16 @@
       "amount": null,
       "contract_type": "一般競争契約（最低価格）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ①及び③について、短期・長期ともに測定指標は順調に推移。②については、順調に活動に取り組んでいる。",
+      "improvement": "アクティビティ①～③について、目標年度に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

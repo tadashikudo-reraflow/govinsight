@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20537",
   "name": "陸自業務システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -74,6 +74,16 @@
       "amount": null,
       "contract_type": "国庫債務負担行為等",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "各年度において、設定した目標値を達成している。",
+      "improvement": "",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

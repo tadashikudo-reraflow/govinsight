@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "22053",
   "name": "地方公共団体情報システム運用最適化支援事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "2026",
   "rsUrl": "",
-  "totalAmount": 380384368.0,
-  "vendorCount": 3,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -33,42 +33,15 @@
     }
   ],
   "rsVendors": [],
-  "procurements": [
+  "evaluations": [
     {
-      "id": "0000000000000446590",
-      "name": "地方公共団体におけるガバメントクラウドへの移行の加速化支援事業（令和６年度地方公共団体情報システム標準化移行課題分析等支援業務）",
-      "awardDate": "2024-05-02",
-      "price": 126930000.0,
-      "vendorName": "ＫＰＭＧコンサルティング株式会社",
-      "corporateNumber": "8010001144647",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000460395",
-      "name": "地方公共団体におけるガバメントクラウドへの移行の加速化支援事業（令和６年度標準化検証機能の検証事業）",
-      "awardDate": "2024-08-01",
-      "price": 120967968.0,
-      "vendorName": "アビームコンサルティング株式会社",
-      "corporateNumber": "8010001085296",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000499711",
-      "name": "地方公共団体におけるガバメントクラウドへの移行の加速化支援事業（令和７年度標準化移行支援施策に係る支援事業）",
-      "awardDate": "2025-03-19",
-      "price": 64486400.0,
-      "vendorName": "株式会社シード・プランニング",
-      "corporateNumber": "9010001144299",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000539253",
-      "name": "地方公共団体情報システムの標準化及びクラウド移行に関わる運用等経費の最適化（FinOps）に関する調査分析等業務（令和７年度）",
-      "awardDate": "2025-09-17",
-      "price": 68000000.0,
-      "vendorName": "ＫＰＭＧコンサルティング株式会社",
-      "corporateNumber": "8010001144647",
-      "bidMethodName": "一般競争入札・総合評価"
+      "year": "2025",
+      "check_result": "",
+      "improvement": "",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
-  ]
+  ],
+  "procurements": []
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "7637",
   "name": "防災分野のデータ連携基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/disaster_prevention/data-collaboration-infrastructure#demonstration-project-2024",
-  "totalAmount": 403098740.0,
-  "vendorCount": 3,
+  "totalAmount": 334936000.0,
+  "vendorCount": 2,
   "budgets": [
     {
       "budget_year": 2025,
@@ -206,6 +206,16 @@
       "block": ""
     }
   ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "令和６年度は、民間事業者が開発し実際に利用されている防災アプリをデータ連携させる実証実験を実施し、データ連携の有効性・利便性を確認した。また、データ連携に当たって生じる課題や、データ連携基盤の運用・開発手法等について検討を行った。",
+      "improvement": "実証実験の成果を踏まえつつ、関係部局と連携しながら引き続き防災分野のデータ連携促進に向けた取組を進める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
   "procurements": [
     {
       "id": "0000000000000462306",
@@ -214,15 +224,6 @@
       "price": 209000000.0,
       "vendorName": "株式会社三菱総合研究所",
       "corporateNumber": "6010001030403",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000464981",
-      "name": "防災分野のデータ連携基盤に関する制度及び開発・運用に関する調査研究",
-      "awardDate": "2024-09-05",
-      "price": 68162740.0,
-      "vendorName": "アビームコンサルティング株式会社",
-      "corporateNumber": "8010001085296",
       "bidMethodName": "随意契約・公募型プロポーザル"
     },
     {

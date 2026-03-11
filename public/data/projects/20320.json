@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20320",
   "name": "内閣府LAN（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -438,6 +438,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "GSSへの移行が完了したことにより、LTE対応のPC端末の導入、外部拠点を含めた庁舎内の無線化、Microsoft365機能の活用、希望する全職員の私物端末の利用が可能となり、職員の業務効率化および柔軟な働き方が可能となった。",
+      "improvement": "本事業は令和5年度が最終年度となっている。",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

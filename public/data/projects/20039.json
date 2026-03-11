@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20039",
   "name": "評価書DXシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -33,5 +33,15 @@
     }
   ],
   "rsVendors": [],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "効率的・効果的な食品健康影響評価を行うための評価書DXシステムを構築し、活動・成果目標等の実現状況をみつつ、改善を図ることとする。",
+      "improvement": "",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
+    }
+  ],
   "procurements": []
 }

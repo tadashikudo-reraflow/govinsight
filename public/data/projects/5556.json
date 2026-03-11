@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5556",
   "name": "国家公務員身分証共通発行管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -150,6 +150,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "各アクティビティの成果指標は順調に推移している。",
+      "improvement": "各アクティビティについて、目標年度に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": [

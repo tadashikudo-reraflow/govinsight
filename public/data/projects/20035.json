@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20035",
   "name": "電子カルテ情報等分析関連サービス構築事業（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -104,6 +104,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "本年度より調査研究事業を開始した。",
+      "improvement": "本年度の調査研究事業の結果を踏まえ、システム構築を行っていく。その中で、政策目標へのロードマップについても整備するとともに、適切な投資対効果の推計も行って参りたい。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

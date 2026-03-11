@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20169",
   "name": "令和８年経済センサス活動調査システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "事業の初期段階なので、特筆する点検結果はない。",
+      "improvement": "事業の初期段階なので、特筆する改善の方向性はない。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

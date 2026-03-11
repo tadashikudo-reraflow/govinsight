@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20841",
   "name": "産業用データ連携推進事業",
   "ministry": "デジタル庁",
@@ -62,6 +62,16 @@
       "amount": null,
       "contract_type": "随意契約（企画競争）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "2025年度開始事業のため、2024年度の点検・改善は不可。",
+      "improvement": "2025年度開始事業のため、2024年度の点検・改善は不可。",
+      "expert_opinion": "アウトカムについては、定量的なアウトカムの設定を引き続き検討されたい。",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": []

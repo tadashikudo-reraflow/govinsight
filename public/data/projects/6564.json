@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6564",
   "name": "産業用データ連携基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "2024",
   "rsUrl": "",
-  "totalAmount": 179358864.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -374,15 +374,15 @@
       "block": ""
     }
   ],
-  "procurements": [
+  "evaluations": [
     {
-      "id": "0000000000000461009",
-      "name": "産業領域におけるデータ連携基盤等の社会実装事業",
-      "awardDate": "2024-08-19",
-      "price": 179358864.0,
-      "vendorName": "一般社団法人データ社会推進協議会",
-      "corporateNumber": "4011005007414",
-      "bidMethodName": "随意契約・公募型プロポーザル"
+      "year": "2025",
+      "check_result": "アクティビティ１について、測定指標は順調に推移している。",
+      "improvement": "アクティビティ１について、目標年度に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": ""
     }
-  ]
+  ],
+  "procurements": []
 }

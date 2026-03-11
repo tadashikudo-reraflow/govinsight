@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21898",
   "name": "オンライン市役所サービスの推進に関する検討経費",
   "ministry": "デジタル庁",
@@ -46,6 +46,16 @@
       "amount": null,
       "contract_type": "随意契約（企画競争）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ102について順調に進んでいる",
+      "improvement": "アクティビティ102について継続して実施する",
+      "expert_opinion": "自治体へのヒアリングを含めて効果を調査するとともに、定量的なアウトカムの設定を引き続き検討すべきである。",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": []

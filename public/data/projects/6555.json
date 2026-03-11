@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6555",
   "name": "電子掲示板システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -104,6 +104,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "アクティビティについて、目標値を達成できており計画どおり運用できている。",
+      "improvement": "電子掲示板システムは令和5年度に運用を終了。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": "終了予定"
     }
   ],
   "procurements": [

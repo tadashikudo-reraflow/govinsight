@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20613",
   "name": "外務省オープンネットワーク・ＬＡＮシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -146,6 +146,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ①について、令和６年度のシステム稼働率は設計書上の目標値99.9%を達成しているおり、パッチ配信等脆弱性対応は年１７件実施している。",
+      "improvement": "アクティビティ①、③について、目標に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "7638",
   "name": "死亡届・死亡診断書オンライン・デジタル化（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -162,6 +162,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "死亡届・死亡診断書オンライン・デジタル化の実証整備を委託し、実現に向けて検討が進んでいる。",
+      "improvement": "関係部局と協力してよりよいサービスの実現ができるよう、検討する。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

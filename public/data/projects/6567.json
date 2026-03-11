@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6567",
   "name": "職員ＩＤ基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 990000000.0,
-  "vendorCount": 2,
+  "totalAmount": 720000000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -486,6 +486,16 @@
       "block": ""
     }
   ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "各アクティビティの短期アウトカムに記載している「現行サービスから本システムへの切替え」について、2024年度からシステム整備を開始し順調に推移している。",
+      "improvement": "各アクティビティについて、目標年度に向けて引き続き取り組む。また現行システム等との連携を強化しつつ、移行計画の具体化を進めていく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
   "procurements": [
     {
       "id": "0000000000000494676",
@@ -494,15 +504,6 @@
       "price": 720000000.0,
       "vendorName": "株式会社ＮＴＴデータ",
       "corporateNumber": "6010601062093",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000498786",
-      "name": "職員ID基盤の実現に向けたβ版システム整備に係る工程管理等の支援業務",
-      "awardDate": "2025-04-11",
-      "price": 270000000.0,
-      "vendorName": "合同会社デロイトトーマツ",
-      "corporateNumber": "3010001076738",
       "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]

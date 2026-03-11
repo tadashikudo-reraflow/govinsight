@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21427",
   "name": "Visit Japan Webの利用促進のための周知等に係る経費",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "2026",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 357489246.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -33,5 +33,25 @@
     }
   ],
   "rsVendors": [],
-  "procurements": []
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "Visit Japan Webの利用促進のためには、航空会社等に対する周知活動等が必要であり、活動・成果目標等の実現状況を見つつ、必要な改善を図ることとする。",
+      "improvement": "活動・成果目標等の実現状況を見つつ、必要な改善を図ることとする。",
+      "expert_opinion": "入国審査でVisit Japan Webを使った人の割合をアウトカムにするべきではないか。",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
+    }
+  ],
+  "procurements": [
+    {
+      "id": "0000000000000475787",
+      "name": "令和７年度Visit Japan Web（フェイズ２）の運用・保守",
+      "awardDate": "2025-03-14",
+      "price": 357489246.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

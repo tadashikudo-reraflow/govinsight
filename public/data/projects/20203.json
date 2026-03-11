@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20203",
   "name": "厚生労働省ＬＡＮシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -244,6 +244,16 @@
       "amount": null,
       "contract_type": "随意契約（少額）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "厚生労働省LANシステムの整備・運用に必要な経費であり、妥当なものであると考えている。",
+      "improvement": "引き続き、効果的で効率的な執行を行えるよう、活動目標の進捗状況の管理に取り組み、適切な運用を進めていく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

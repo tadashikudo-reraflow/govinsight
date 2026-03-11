@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5510",
   "name": "登記事項証明書の添付省略の推進に係る調査事業",
   "ministry": "デジタル庁",
@@ -168,6 +168,16 @@
       "amount": null,
       "contract_type": "一般競争契約（総合評価）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "2024年度のアクティビティを踏まえ、後続のアクティビティに取り組んでおり、順調に推移している。",
+      "improvement": "2025年度以降のアクティビティについて、目標達成に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": [

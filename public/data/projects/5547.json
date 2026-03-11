@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5547",
   "name": "預貯金口座情報提供等業務交付金（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -94,6 +94,16 @@
       "amount": null,
       "contract_type": "補助金等交付",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "2025年４月１日より金融機関及び預金保険機構への委託業務開始をもって、事業の目的は達成できたと評価する。",
+      "improvement": "-",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": ""
     }
   ],
   "procurements": []

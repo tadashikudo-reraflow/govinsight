@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20051",
   "name": "新型コロナウイルス感染者等情報把握・管理支援システム（ＨＥＲ－ＳＹＳ）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -74,6 +74,16 @@
       "amount": null,
       "contract_type": "随意契約（その他）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "感染拡大に伴う利用者数増加に対応するためのクラウド環境のリソース増強や届出基準の見直し等求められる機能の追加を行うことでシステムの可用性を確保してきた。",
+      "improvement": "システム廃止済みのため無し。",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

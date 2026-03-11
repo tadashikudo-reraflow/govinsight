@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20006",
   "name": "環境省ネットワークシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -223,6 +223,16 @@
       "amount": null,
       "contract_type": "一般競争契約（総合評価）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティについて、目標値を達成できており計画どおり運用できている。",
+      "improvement": "令和7年6月で現行システムは運用を終了することとしているため、運用終了まで引き続き安定運用に努める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

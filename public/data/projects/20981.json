@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20981",
   "name": "ＡＩを活用した海賊版サイトの検知システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "当該事業は令和７年度８月からの開始に向け、調達等の手続きを進めている。",
+      "improvement": "適切な予算執行に努める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

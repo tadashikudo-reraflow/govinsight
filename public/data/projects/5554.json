@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5554",
   "name": "マイナンバーカードの普及及び利活用シーンの拡大（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "2024",
   "rsUrl": "",
-  "totalAmount": 3535000.0,
-  "vendorCount": 1,
+  "totalAmount": 145200000.0,
+  "vendorCount": 2,
   "budgets": [
     {
       "budget_year": 2025,
@@ -348,15 +348,43 @@
       "block": ""
     }
   ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティについて、順調に推移している。",
+      "improvement": "アクティビティについて、引き続き推進していく。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": ""
+    }
+  ],
   "procurements": [
     {
-      "id": "0000000000000468755",
-      "name": "令和６年度マイナンバーカードの普及と利活用の状況に関するインターネットによるアンケート調査",
-      "awardDate": "2024-09-27",
-      "price": 3535000.0,
-      "vendorName": "ネットエイジア株式会社",
-      "corporateNumber": "7010001126258",
-      "bidMethodName": "一般競争入札・最低価格"
+      "id": "0000000000000477183",
+      "name": "文教の分野におけるマイナンバーカードを活用した実証実験＜学割利用時本人確認＞",
+      "awardDate": "2024-11-27",
+      "price": 49950000.0,
+      "vendorName": "西日本旅客鉄道株式会社",
+      "corporateNumber": "1120001059675",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000544991",
+      "name": "令和７年度マイナンバーカードを活用したエンタメＤＸに関する実証事件",
+      "awardDate": "2025-09-08",
+      "price": 51700000.0,
+      "vendorName": "株式会社ドリームインキュベータ",
+      "corporateNumber": "6010001141902",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000542448",
+      "name": "令和７年度マイナンバーカードを活用した在学資格証明デジタル化実証実験",
+      "awardDate": "2025-10-14",
+      "price": 43550000.0,
+      "vendorName": "西日本旅客鉄道株式会社",
+      "corporateNumber": "1120001059675",
+      "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]
 }

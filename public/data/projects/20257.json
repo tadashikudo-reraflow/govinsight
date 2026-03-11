@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20257",
   "name": "計量士登録関係システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "現行システムのSaaS移行・改修作業は、今年度実施するため、SaaSでのシステム運用は来年度となる。このため、システム運用・保守経費の点検・改善は、来年度以降の実施となる。",
+      "improvement": "来年度の運用開始後、その運用実績を踏まえ、システムの運用・保守経費を見直していく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

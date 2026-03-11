@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20045",
   "name": "保健医療分野の電子署名基盤整備事業（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -33,5 +33,15 @@
     }
   ],
   "rsVendors": [],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "医療DXの推進に必要なため。",
+      "improvement": "事業開始後に検討する。",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
+    }
+  ],
   "procurements": []
 }

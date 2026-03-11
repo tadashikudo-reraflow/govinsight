@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20415",
   "name": "総務省ＬＡＮ（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -1105,6 +1105,16 @@
       "amount": null,
       "contract_type": "随意契約（少額）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "週次・月次の報告等を踏まえ改善を図り、目標値を達成することができた。",
+      "improvement": "－（2024年度末で本事業は終了したため。）",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6568",
   "name": "個人向け認証アプリケーション（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "https://services.digital.go.jp/auth-and-sign/",
-  "totalAmount": 100388000.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -332,24 +332,15 @@
       "block": ""
     }
   ],
-  "procurements": [
+  "evaluations": [
     {
-      "id": "0000000000000430955",
-      "name": "令和６年度GSS運用に係るアプリケーション検査業務",
-      "awardDate": "2024-04-12",
-      "price": 46888000.0,
-      "vendorName": "株式会社ＦＦＲＩセキュリティ",
-      "corporateNumber": "3011101046226",
-      "bidMethodName": "一般競争入札・最低価格"
-    },
-    {
-      "id": "0000000000000516198",
-      "name": "令和７年度GSS運用に係るアプリケーション検査業務",
-      "awardDate": "2025-05-19",
-      "price": 53500000.0,
-      "vendorName": "株式会社ＦＦＲＩセキュリティ",
-      "corporateNumber": "3011101046226",
-      "bidMethodName": "一般競争入札・最低価格"
+      "year": "2025",
+      "check_result": "2024年6月のリリース以降、見込みを大幅に上回る申込を頂いており、国民の期待の高さを実感している。本事業の更なる推進が見込まれる。また、当初想定よりも大幅に申込を頂いているため、年間の運用費等の削減が困難であり、サービスの品質を維持しつつ効率的な運用を行えるように、運用設計の見直しが求められる。",
+      "improvement": "今後、問い合わせ数・申込数ともに更なる増加が見込まれるところ、引き続き増員等によりプロジェクト体制を強化し、円滑なプロジェクトの遂行を行う。​",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
-  ]
+  ],
+  "procurements": []
 }

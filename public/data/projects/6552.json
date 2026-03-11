@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6552",
   "name": "データカタログ（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 131694000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -150,5 +150,34 @@
       "block": ""
     }
   ],
-  "procurements": []
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "長期の測定指標は順調に推移しているが、中期の測定指標は前年度実績から大きく伸びず、目標値を下回っている。",
+      "improvement": "中期の測定指標について、今年度から開始予定のアクティビティ2によって増加することを見込んでいる。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
+  "procurements": [
+    {
+      "id": "0000000000000454054",
+      "name": "e-Govデータポータルサービス2024年度運用・保守",
+      "awardDate": "2024-07-26",
+      "price": 27894000.0,
+      "vendorName": "株式会社日立社会情報サービス",
+      "corporateNumber": "3010601021713",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000488458",
+      "name": "e-Govデータポータルサービス2025年度運用・保守",
+      "awardDate": "2025-03-18",
+      "price": 103800000.0,
+      "vendorName": "株式会社日立社会情報サービス",
+      "corporateNumber": "3010601021713",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

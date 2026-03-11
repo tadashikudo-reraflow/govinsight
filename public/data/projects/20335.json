@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20335",
   "name": "こども性暴力防止法に係るシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "本年度は令和７年度が初年度であり、事業開始前から分析・点検が困難である。当該事業における計画について注視しつつ、次年度以降、適切に点検・評価を実施していくものとしたい。",
+      "improvement": "--",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

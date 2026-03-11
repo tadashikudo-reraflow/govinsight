@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20837",
   "name": "政府によるAI 調達・利活用等調査事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 64200000.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -49,24 +49,15 @@
     }
   ],
   "rsVendors": [],
-  "procurements": [
+  "evaluations": [
     {
-      "id": "0000000000000480155",
-      "name": "政府による適切なAIの調達・利用の在り方等に関する調査研究",
-      "awardDate": "2024-12-23",
-      "price": 15200000.0,
-      "vendorName": "ＰｗＣコンサルティング合同会社",
-      "corporateNumber": "1010401023102",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000496991",
-      "name": "政府による適切なAIの調達・利用の在り方及び政府共通AI基盤等に関する調査研究",
-      "awardDate": "2025-03-10",
-      "price": 49000000.0,
-      "vendorName": "ＰｗＣコンサルティング合同会社",
-      "corporateNumber": "1010401023102",
-      "bidMethodName": "随意契約・公募型プロポーザル"
+      "year": "2025",
+      "check_result": "本事業は、令和６年度補正予算の全額を令和７年度に繰越しているものであることから、令和6年度は事業の有効性や事業の効果・効率性について評価出来ない。",
+      "improvement": "--",
+      "expert_opinion": "アウトカムについては、定量的なアウトカムの設定を引き続き検討されたい。",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
-  ]
+  ],
+  "procurements": []
 }

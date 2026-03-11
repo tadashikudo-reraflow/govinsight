@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "5557",
   "name": "準公共・相互連携分野デジタル化推進費",
   "ministry": "デジタル庁",
@@ -885,6 +885,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティについて、測定指標はおおむね順調に推移している。",
+      "improvement": "アクティビティについて、目標年度に向け引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": []

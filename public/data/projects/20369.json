@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20369",
   "name": "国家公務員の災害に備える意識醸成eラーニングシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -46,6 +46,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "多くの職員が大規模災害に対処できるよう、災害に備える意識の醸成や災害に関する基礎知識等を定着させるための「災害に備える意識醸成eラーニングシステム」を構築し、活動・成果目標等の実現状況を見つつ、改善を図ることとする。",
+      "improvement": "--",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6562",
   "name": "企業保有情報提出に関する導入支援システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -106,6 +106,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ101の内容について、順調に推移している。",
+      "improvement": "アクティビティ101、102の内容について、引き続き推進していく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21095",
   "name": "国税犯則調査手続システム（ＣＩＰシステム）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -74,6 +74,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "現在、システムの設計・開発中であり、刑事手続のデジタル化を進めている検察庁等と一体性に配意した開発となるよう計画的に推進している。",
+      "improvement": "引き続き、関係省庁との連携を図りながら、適切なシステムの整備が行われるよう進行管理していく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

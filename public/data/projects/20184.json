@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20184",
   "name": "海自造修整備補給システム（オープン系）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -97,6 +97,16 @@
       "amount": null,
       "contract_type": "一般競争契約（最低価格）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ１について、測定指標は順調に推移している。",
+      "improvement": "アクティビティ１について、測定指標の達成に向けて引き続き取り組む",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

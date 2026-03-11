@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20231",
   "name": "経済産業省基盤情報システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -258,6 +258,16 @@
       "amount": null,
       "contract_type": "一般競争契約（総合評価）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アウトカム指標で設定した情報システム整備の進展実感等について、「現状」において省内アンケートを行い、上昇傾向で推移していることを確認している。",
+      "improvement": "GSS移行後含めアウトカム等で設定した目標の達成に向けて、効果的・効率的な取組を実施していく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

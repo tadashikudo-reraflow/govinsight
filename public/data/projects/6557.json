@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6557",
   "name": "マイナンバーカード関係システム事業費補助金（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -78,6 +78,16 @@
       "amount": null,
       "contract_type": "補助金等交付",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ➀②③についてはすべて、目標値を上回っている。",
+      "improvement": "引き続きシステムの効率化に取り組みながら、安全かつ安定的なシステム運用に努める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6563",
   "name": "デジタル推進委員ポータル（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/digital_promotion_staff/",
-  "totalAmount": 112455040.0,
-  "vendorCount": 3,
+  "totalAmount": 12652440.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -115,34 +115,17 @@
       "block": ""
     }
   ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "・アクティビティについては、順調に推移している。",
+      "improvement": "・長期アウトカムのうち、活動状況を登録したことがあるデジタル推進委員の人数の目標値達成に向けて、デジタル推進委員ポータルの継続的な改修やコミュニティの活性化推進に引き続き取り組む。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
   "procurements": [
-    {
-      "id": "0000000000000484693",
-      "name": "令和６年度デジタル推進委員ポータルの機能改修に係る設計・開発業務",
-      "awardDate": "2025-01-27",
-      "price": 24980000.0,
-      "vendorName": "アクロスロード株式会社",
-      "corporateNumber": "2020001088122",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000518855",
-      "name": "令和７年度デジタル推進委員ポータルの運用・保守一式（再度公告）",
-      "awardDate": "2025-03-27",
-      "price": 11900000.0,
-      "vendorName": "株式会社グランドユニット",
-      "corporateNumber": "9010501031600",
-      "bidMethodName": "一般競争入札・総合評価"
-    },
-    {
-      "id": "0000000000000545225",
-      "name": "令和７年度デジタル推進委員ポータルの機能改修に係る設計・開発業務",
-      "awardDate": "2025-11-04",
-      "price": 62922600.0,
-      "vendorName": "株式会社ｄｏｔＤ",
-      "corporateNumber": "4020001128545",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
     {
       "id": "0000000000000563772",
       "name": "令和８年度デジタル推進委員ポータルの運用・保守一式",

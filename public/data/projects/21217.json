@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21217",
   "name": "札幌第４地方合同庁舎入退館管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -60,6 +60,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "札幌第４地方合同庁舎入退館管理システムを利用し、入退館の履歴による入退館者の確認及び庁舎内の在館人数の把握等により部外者や不審者の不正入館を未然に防ぐ必要がある。",
+      "improvement": "－",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21895",
   "name": "デジタル社会推進標準ガイドラインの改定",
   "ministry": "デジタル庁",
@@ -46,6 +46,16 @@
       "amount": null,
       "contract_type": "一般競争契約（総合評価）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "毎年の標準ガイドライン群文書の改定を実施しており、適切に実施できているものと判断。",
+      "improvement": "引き続き有識者や各府省からの意見を参考としつつ、改定を継続する予定。",
+      "expert_opinion": "アウトカムについては、定量的なアウトカムの設定を引き続き検討されたい。",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": [

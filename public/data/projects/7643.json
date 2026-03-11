@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "7643",
   "name": "CIQ手続効率化推進事業",
   "ministry": "デジタル庁",
@@ -288,6 +288,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "諸外国におけるCIQ手続等のデジタル化事例を把握し、Visit Japan Webの利用を前提とした日本のCIQ手続のあり方を検討していくなかで参考にした。その結果、Visit Japan Webの登録率30％維持に大きく貢献した。",
+      "improvement": "事業終了のため記載事項なし。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": "終了予定"
     }
   ],
   "procurements": []

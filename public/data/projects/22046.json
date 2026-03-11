@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "22046",
   "name": "地方財政決算情報管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -214,6 +214,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "地方財政法に基づき毎年度地方財政の状況を国会報告するに当たり、地方財政状況調査等の調査データの集計・分析に本システムは不可欠である。",
+      "improvement": "一層の業務効率化等を実現するため、2026年度から次期システムの設計開発等を行い、2028年度から稼働開始予定",
+      "expert_opinion": "",
+      "review_opinion": "",
+      "reflect_status": ""
     }
   ],
   "procurements": []

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6575",
   "name": "Trusted Web開発等推進事業費",
   "ministry": "デジタル庁",
@@ -272,6 +272,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2024",
+      "check_result": "アクティビティについて、測定指標は順調に推移している。",
+      "improvement": "当該事業を通して、様々なユースケースの創出や調査報告書をまとめているため、産業界をはじめとしたステークホルダーに対して当該事業のアウトプットを活用してさらに普及啓発していくことが有効。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": "終了予定"
     }
   ],
   "procurements": []

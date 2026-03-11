@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21267",
   "name": "衛星通信設備（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -60,6 +60,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "首都直下地震発生等に非常時優先業務を円滑に実施するためには、一般通信回線が途絶した環境下での業務対応に備え、衛星通信設備を活用した高品質なデータ通信環境の確保しておくことは重要であり、事業の有効性は高いと考える。",
+      "improvement": "―",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

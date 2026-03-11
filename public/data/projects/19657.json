@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "19657",
   "name": "旅券申請システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -62,6 +62,16 @@
       "amount": null,
       "contract_type": "随意契約（その他）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "本事業は2024年度で終了。",
+      "improvement": "本事業は2024年度で終了。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": ""
     }
   ],
   "procurements": []

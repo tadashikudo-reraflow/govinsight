@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20144",
   "name": "通関情報総合判定システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -636,6 +636,16 @@
       "amount": null,
       "contract_type": "国庫債務負担行為等",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "システムを安定的に稼働しており、物流の効率化や社会悪物品の発見等の重要な役割を果たしている。",
+      "improvement": "引き続き、システムの安定稼働に努め、物流の円滑化や社会悪物品の発見等の重要な役割を果たす。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

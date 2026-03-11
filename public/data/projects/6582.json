@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6582",
   "name": "Trusted Web実装等推進事業",
   "ministry": "デジタル庁",
@@ -106,6 +106,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "定義したアクティビティに従い、有識者会議での議論も踏まえてユースケースや導入メリットを整理したほか、予想されるリスクを統制するためのガバナンスを検討するなど、必要なアクションに取り組んでいる。",
+      "improvement": "トラストの確保において必要な課題の整理と必要なガバナンスの検討、ユースケースの創出等に向けて調査・実証等を進めていく。",
+      "expert_opinion": "",
+      "review_opinion": "終了予定",
+      "reflect_status": "終了予定"
     }
   ],
   "procurements": [

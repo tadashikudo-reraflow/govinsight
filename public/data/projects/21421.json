@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21421",
   "name": "法人共通認証基盤（GビズID）広報事業",
   "ministry": "デジタル庁",
@@ -46,6 +46,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "適切な成果目標を設定し、達成度についても確認し随時改善に努めており、効果的かつ効率的な執行を行う。",
+      "improvement": "引き続き、効果的で効率的な執行を行えるよう、成果目標の達成状況の管理を行い、適切に業務を進めていく。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": "現状通り"
     }
   ],
   "procurements": []

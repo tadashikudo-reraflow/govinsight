@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20083",
   "name": "電子入札システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -195,6 +195,16 @@
       "amount": null,
       "contract_type": "一般競争契約（総合評価）",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "2024年度は、2026年1月のガバメントクラウド移行を確実に実施するため、機器更新の詳細設計を実施した。",
+      "improvement": "運用等経費については、ガバメントクラウドへの移行による経費削減が期待される。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

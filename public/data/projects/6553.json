@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6553",
   "name": "オンライン研修システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 32364400.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -108,15 +108,15 @@
       "block": ""
     }
   ],
-  "procurements": [
+  "evaluations": [
     {
-      "id": "0000000000000491494",
-      "name": "情報システム統一研修実施のためのオンライン研修システム提供業務の請負",
-      "awardDate": "2025-03-28",
-      "price": 32364400.0,
-      "vendorName": "株式会社インソース",
-      "corporateNumber": "5010001080795",
-      "bidMethodName": "一般競争入札・最低価格"
+      "year": "2025",
+      "check_result": "受講者アンケートの結果等から、研修メニューとして最新の技術動向を踏まえた研修内容の提供を求める要望がみられるほか、研修等の見直しをはじめとして、政府デジタル人材の確保・育成等の取組を一層強化する必要がある。",
+      "improvement": "研修メニューとして最新の技術動向を踏まえた研修内容の提供を行うよう、研修メニューの検討、研修コンテンツ改修等を進める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
-  ]
+  ],
+  "procurements": []
 }

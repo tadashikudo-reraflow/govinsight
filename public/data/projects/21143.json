@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "21143",
   "name": "農林水産統計システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -375,6 +375,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "サービスレベル達成度を確認することで、農林水産統計システムを安定稼働し、統計調査を的確に実施できるよう事業を進めている。",
+      "improvement": "引き続き、農林水産統計システムを安定稼働し、統計調査を的確に実施できるようアウトプット／アウトカムに基づき事業を推進する。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

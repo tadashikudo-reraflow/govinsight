@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20994",
   "name": "強い農業づくり総合支援交付金要望等管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -76,6 +76,16 @@
       "amount": null,
       "contract_type": "",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "システム未構築のため効果の測定等はできないが、これまで事業の効率化や利用者の利便性確保のためeMAFFで実施してきた業務であり、システムの必要性はあることから、構築を進める。",
+      "improvement": "システムの構築を進める",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

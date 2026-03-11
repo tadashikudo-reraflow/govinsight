@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20101",
   "name": "農林水産省ＧＳＳ独自サービス等（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -153,6 +153,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "アクティビティ①について、目標値を達成できており、順調に推移していた。",
+      "improvement": "基本的に順調な推移のため問題ないが、特に障害発生時においては、GSSを提供するデジタル庁GSS班と密に連携を取る。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []

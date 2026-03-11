@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "20585",
   "name": "保険医療機関等管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2010",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 1549000000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -253,5 +253,25 @@
       "block": ""
     }
   ],
-  "procurements": []
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "保険医療機関等から施設基準届等の届出や申請情報を適切に管理するため、診療報酬改定等に対応するために必要なステム改修予算を確保し、適切な執行を行ったところである。",
+      "improvement": "引き続き適正に予算を執行するように務める。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
+    }
+  ],
+  "procurements": [
+    {
+      "id": "0000000000000490027",
+      "name": "国家資格等情報連携・活用システムの改修等に係る設計・開発等業務（令和７年度）",
+      "awardDate": "2025-03-03",
+      "price": 1549000000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

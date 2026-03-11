@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T17:13:49Z",
+  "updatedAt": "2026-03-11T07:38:51Z",
   "id": "6554",
   "name": "研修ＬＡＮシステム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -92,6 +92,16 @@
       "amount": null,
       "contract_type": "その他",
       "block": ""
+    }
+  ],
+  "evaluations": [
+    {
+      "year": "2025",
+      "check_result": "令和8年2月末までは引き続き安定的な稼働に努める。他方で、コロナ禍を契機にオンラインでの研修も根付いてきたところであり、本システムは令和8年2月末をもって廃止する。",
+      "improvement": "令和8年2月末に円滑に廃止できるよう、関係部署と十分な調整を行う。",
+      "expert_opinion": "",
+      "review_opinion": "現状通り",
+      "reflect_status": ""
     }
   ],
   "procurements": []
