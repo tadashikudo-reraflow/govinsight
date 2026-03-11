@@ -45,8 +45,11 @@ def match(
 
     project_ids = projects["project_id"].tolist()
 
-    # RS事業: 事業名のみ（overview追加はベクトル希釈のため不使用）
-    project_texts = projects["name"].fillna("").tolist()
+    # RS事業: 事業名 + overview（先頭200字）+ purpose（先頭100字）
+    project_texts = [
+        _build_project_text(row["name"], row.get("overview", ""), row.get("purpose", ""))
+        for _, row in projects.iterrows()
+    ]
 
     # 調達案件: 「令和X年度」プレフィックスを除去して比較精度向上
     proc_texts = [
@@ -79,7 +82,10 @@ def match(
         if best_score >= MATCHING_THRESHOLD:
             proc.at[i, "project_id"] = project_ids[best_idx]
 
-    # Step 2: 手動補正テーブルで上書き
+    # Step 2: ベンダー名クロスマッチング（TF-IDF未達候補の救済）
+    _vendor_secondary_match(proc, projects, project_ids, sim_matrix)
+
+    # Step 3: 手動補正テーブルで上書き
     corrections = _load_corrections(corrections_file)
     for corr in corrections:
         pid = corr.get("project_id")
@@ -101,11 +107,70 @@ def _normalize_proc_name(name: str) -> str:
     return name
 
 
-def _build_project_text(name: str, overview: str) -> str:
-    """事業名 + overview先頭200字を結合してマッチング用テキストを構築する。"""
+def _build_project_text(name: str, overview: str, purpose: str = "") -> str:
+    """事業名 + overview先頭200字 + purpose先頭100字を結合してマッチング用テキストを構築する。"""
     name_str = str(name) if name else ""
     overview_str = str(overview)[:200] if overview else ""
-    return f"{name_str} {overview_str}"
+    purpose_str = str(purpose)[:100] if purpose else ""
+    return f"{name_str} {overview_str} {purpose_str}".strip()
+
+
+def _vendor_secondary_match(
+    proc: pd.DataFrame,
+    projects: pd.DataFrame,
+    project_ids: list,
+    sim_matrix,
+) -> None:
+    """TF-IDF未達（0.15〜閾値未満）案件をベンダー名で救済マッチングする（in-place）。
+
+    RS 5-1 の vendors リスト内の法人名と調達案件の vendor_name を比較し、
+    一致する場合に TF-IDF best_score の事業を割り当てる。
+    """
+    if "vendors" not in projects.columns or "vendor_name" not in proc.columns:
+        return
+
+    # RS事業: vendor_name 正規化マップ {project_id: [normalized_vendor, ...]}
+    project_vendor_map: dict[str, list[str]] = {}
+    for _, prow in projects.iterrows():
+        vendors = prow.get("vendors") or []
+        normalized = [
+            jaconv.normalize(str(v.get("name", "")), "NFKC").lower()
+            for v in vendors
+            if isinstance(v, dict) and v.get("name")
+        ]
+        if normalized:
+            project_vendor_map[prow["project_id"]] = normalized
+
+    if not project_vendor_map:
+        return
+
+    lower_threshold = 0.15
+
+    for pos, (idx, row) in enumerate(proc.iterrows()):
+        if row["project_id"] is not None:
+            continue  # 既にマッチ済み
+
+        proc_vendor = row.get("vendor_name") or ""
+        if not proc_vendor:
+            continue
+        proc_vendor_norm = jaconv.normalize(str(proc_vendor), "NFKC").lower()
+
+        # TF-IDF スコアが lower_threshold 以上の候補プロジェクトを取得
+        sim_row = sim_matrix[pos]
+        candidates = [
+            (project_ids[j], sim_row[j])
+            for j in range(len(project_ids))
+            if lower_threshold <= sim_row[j] < MATCHING_THRESHOLD
+        ]
+        if not candidates:
+            continue
+
+        # ベンダー名照合
+        for pid, _ in sorted(candidates, key=lambda x: -x[1]):
+            rs_vendors = project_vendor_map.get(pid, [])
+            if any(proc_vendor_norm in rv or rv in proc_vendor_norm for rv in rs_vendors):
+                proc.at[idx, "project_id"] = pid
+                break
 
 
 def _char_ngram_analyzer(text: str) -> list[str]:
