@@ -110,9 +110,24 @@ def _normalize_proc_name(name: str) -> str:
     return name
 
 
+# 括弧注記（全角・半角）を除去: 「（令和5年度版）」「(仮称)」
+_PAREN_PATTERN = re.compile(r"[（(][^）)]*[）)]")
+# 末尾の汎用業務サフィックス: 「～整備」「～開発業務」「等」etc.
+_SUFFIX_PATTERN = re.compile(
+    r"(?:に(?:係る|関する)(?:業務)?|(?:システム)?(?:整備|開発|構築|運用|保守|管理)(?:業務)?|等)$"
+)
+
+
 def _normalize_text(text: str) -> str:
-    """TF-IDF用テキスト正規化（事業名・調達案件名共通）。"""
-    return str(text).strip() if text else ""
+    """TF-IDF用テキスト正規化（事業名・調達案件名共通）。
+
+    - 括弧注記を除去: 「（令和5年度）」「(仮称)」
+    - 末尾の汎用業務サフィックスを除去: 「整備」「開発業務」「等」etc.
+    """
+    text = str(text).strip() if text else ""
+    text = _PAREN_PATTERN.sub("", text)
+    text = _SUFFIX_PATTERN.sub("", text)
+    return text.strip()
 
 
 def _vendor_secondary_match(

@@ -41,6 +41,10 @@ def generate_all(
 def _build_projects(df: pd.DataFrame, updated_at: str) -> dict:
     records = []
     for _, row in df.iterrows():
+        budgets = row.get("budgets") or []
+        vendors = row.get("vendors") or []
+        latest_exec_rate, latest_budget = _latest_budget_stats(budgets)
+        vendor_summary = _vendor_summary(vendors)
         records.append({
             "id": _s(row.get("project_id")),
             "name": _s(row.get("name")),
@@ -51,6 +55,10 @@ def _build_projects(df: pd.DataFrame, updated_at: str) -> dict:
             "endYear": _s(row.get("end_year")),
             "rsUrl": _s(row.get("rs_url")),
             "rsYear": _s(row.get("rs_year")),
+            "latestExecRate": latest_exec_rate,
+            "latestBudget": latest_budget,
+            "topVendor": vendor_summary.get("topVendor"),
+            "totalRsSpend": vendor_summary.get("totalSpend"),
         })
     return {"updatedAt": updated_at, "items": records}
 
@@ -75,6 +83,9 @@ def _build_project_detail(row, proc_df: pd.DataFrame, updated_at: str) -> dict:
     total_amount = proc_df["price"].sum() if not proc_df.empty and "price" in proc_df.columns else 0
     vendor_count = proc_df["corporate_number"].nunique() if not proc_df.empty and "corporate_number" in proc_df.columns else 0
 
+    latest_exec_rate, latest_budget = _latest_budget_stats(budgets if isinstance(budgets, list) else [])
+    vendor_summary = _vendor_summary(vendors if isinstance(vendors, list) else [])
+
     return {
         "updatedAt": updated_at,
         "id": _s(row.get("project_id")),
@@ -91,6 +102,9 @@ def _build_project_detail(row, proc_df: pd.DataFrame, updated_at: str) -> dict:
         "rsUrl": _s(row.get("rs_url")),
         "totalAmount": float(total_amount) if pd.notna(total_amount) else 0,
         "vendorCount": int(vendor_count),
+        "latestExecRate": latest_exec_rate,
+        "latestBudget": latest_budget,
+        "vendorSummary": vendor_summary,
         "budgets": budgets if isinstance(budgets, list) else [],
         "rsVendors": vendors if isinstance(vendors, list) else [],
         "evaluations": evaluations if isinstance(evaluations, list) else [],
@@ -194,6 +208,50 @@ def _build_dashboard(projects: pd.DataFrame, procurements: pd.DataFrame, updated
         },
         "monthlyAwards": monthly_awards,
         "bidMethodSummary": bid_method_summary,
+    }
+
+
+# ---- 集計ヘルパー -------------------------------------------------------
+
+def _latest_budget_stats(budgets: list[dict]) -> tuple[float | None, float | None]:
+    """budgets リストから最新年度の執行率・当初予算を返す。"""
+    if not budgets:
+        return None, None
+    valid = [b for b in budgets if b.get("budget_year") is not None]
+    if not valid:
+        return None, None
+    latest = max(valid, key=lambda b: b["budget_year"])
+    return latest.get("exec_rate"), latest.get("initial")
+
+
+def _vendor_summary(vendors: list[dict]) -> dict:
+    """RS 5-1 vendors リストから支出集中度サマリを生成する。
+
+    Returns:
+        {totalSpend, topVendor, topVendorAmount, concentration, vendorCount}
+        concentration: TOP1ベンダーの支出シェア（0〜100%）
+    """
+    if not vendors:
+        return {"totalSpend": None, "topVendor": None, "topVendorAmount": None,
+                "concentration": None, "vendorCount": 0}
+
+    total = sum(v.get("amount") or 0 for v in vendors)
+    by_vendor: dict[str, float] = {}
+    for v in vendors:
+        name = v.get("name") or ""
+        amt = v.get("amount") or 0
+        by_vendor[name] = by_vendor.get(name, 0) + amt
+
+    top_name = max(by_vendor, key=lambda k: by_vendor[k]) if by_vendor else None
+    top_amount = by_vendor.get(top_name, 0) if top_name else 0
+    concentration = round(top_amount / total * 100, 1) if total > 0 else None
+
+    return {
+        "totalSpend": total if total > 0 else None,
+        "topVendor": top_name,
+        "topVendorAmount": top_amount if top_amount > 0 else None,
+        "concentration": concentration,
+        "vendorCount": len(by_vendor),
     }
 
 
