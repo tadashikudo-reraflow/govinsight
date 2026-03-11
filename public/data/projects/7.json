@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "7",
   "name": "マイナンバー制度の推進",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/mynumber",
-  "totalAmount": 3535000.0,
+  "totalAmount": 588248420.0,
   "vendorCount": 1,
   "budgets": [
     {
@@ -530,13 +530,13 @@
   ],
   "procurements": [
     {
-      "id": "0000000000000468755",
-      "name": "令和６年度マイナンバーカードの普及と利活用の状況に関するインターネットによるアンケート調査",
-      "awardDate": "2024-09-27",
-      "price": 3535000.0,
-      "vendorName": "ネットエイジア株式会社",
-      "corporateNumber": "7010001126258",
-      "bidMethodName": "一般競争入札・最低価格"
+      "id": "0000000000000547621",
+      "name": "マイナンバー総合フリーダイヤルの設置運営業務",
+      "awardDate": "2026-02-12",
+      "price": 588248420.0,
+      "vendorName": "富士ソフトサービスビューロ株式会社",
+      "corporateNumber": "1010601027646",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

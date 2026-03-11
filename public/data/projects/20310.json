@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "20310",
   "name": "総務省における生成ＡＩ利用環境（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 35963637.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -88,5 +88,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000518200",
+      "name": "法制事務における生成AIの活用等に関する技術検証",
+      "awardDate": "2025-05-16",
+      "price": 35963637.0,
+      "vendorName": "Ｐｏｌｉｍｉｌｌ株式会社",
+      "corporateNumber": "5010401158530",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

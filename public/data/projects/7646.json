@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "7646",
   "name": "医療機関等でのマイナンバーカードの利活用推進事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2023",
   "endYear": "2024",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 436361000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -90,5 +90,15 @@
       "reflect_status": "終了予定"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000502993",
+      "name": "令和７年度マイナンバーカード広報業務",
+      "awardDate": "2025-03-31",
+      "price": 436361000.0,
+      "vendorName": "株式会社ＡＤＫマーケティング・ソリューションズ",
+      "corporateNumber": "3010001035099",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

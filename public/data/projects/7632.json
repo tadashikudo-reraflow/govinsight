@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "7632",
   "name": "生成ＡＩの検証環境（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2023",
   "endYear": "2025",
   "rsUrl": "",
-  "totalAmount": 15200000.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -146,15 +146,5 @@
       "reflect_status": ""
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000480155",
-      "name": "政府による適切なAIの調達・利用の在り方等に関する調査研究",
-      "awardDate": "2024-12-23",
-      "price": 15200000.0,
-      "vendorName": "ＰｗＣコンサルティング合同会社",
-      "corporateNumber": "1010401023102",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    }
-  ]
+  "procurements": []
 }

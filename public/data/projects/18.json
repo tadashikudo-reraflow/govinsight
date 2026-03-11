@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "18",
   "name": "政府共通ネットワーク（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "2024",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 272574000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -276,5 +276,15 @@
       "reflect_status": "終了予定"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000459939",
+      "name": "令和６年度政府共通ネットワーク（LGWAN相互接続機能）の更改に係る設計支援業務",
+      "awardDate": "2024-08-23",
+      "price": 272574000.0,
+      "vendorName": "日本電気株式会社",
+      "corporateNumber": "7010401022916",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

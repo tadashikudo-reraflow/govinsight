@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "5545",
   "name": "ベース・レジストリ共通費（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2023",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 142559782.0,
-  "vendorCount": 2,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2025,
@@ -251,24 +251,5 @@
       "reflect_status": ""
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000458194",
-      "name": "法人ベース・レジストリ及び情報連携機能の構築に向けた調査研究・要件定義業務",
-      "awardDate": "2024-07-18",
-      "price": 127049782.0,
-      "vendorName": "ＰｗＣコンサルティング合同会社",
-      "corporateNumber": "1010401023102",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000509127",
-      "name": "2025年度の支援情報ベース・レジストリシステムの運用保守業務",
-      "awardDate": "2025-03-21",
-      "price": 15510000.0,
-      "vendorName": "株式会社電算システム",
-      "corporateNumber": "5200001003514",
-      "bidMethodName": "一般競争入札・最低価格"
-    }
-  ]
+  "procurements": []
 }

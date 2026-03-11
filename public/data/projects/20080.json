@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "20080",
   "name": "Digital Identityの実証等経費",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "2026",
   "rsUrl": "",
-  "totalAmount": 45402368.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "budgets": [
     {
       "budget_year": 2024,
@@ -58,15 +58,5 @@
       "reflect_status": "現状通り"
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000525070",
-      "name": "令和７年度デジタル社会におけるトラスト及びデジタルアイデンティティに係る調査研究",
-      "awardDate": "2025-06-18",
-      "price": 45402368.0,
-      "vendorName": "アビームコンサルティング株式会社",
-      "corporateNumber": "8010001085296",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    }
-  ]
+  "procurements": []
 }

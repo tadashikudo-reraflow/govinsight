@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "6558",
   "name": "共創プラットフォーム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/get-involved/co-creation-platform/",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 508485000.0,
+  "vendorCount": 3,
   "budgets": [
     {
       "budget_year": 2025,
@@ -300,5 +300,69 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000456639",
+      "name": "令和６年度デジタル改革共創プラットフォームへの参加及び活用促進に関する調査研究",
+      "awardDate": "2024-06-24",
+      "price": 21200000.0,
+      "vendorName": "ＴＯＰＰＡＮ株式会社",
+      "corporateNumber": "8010501050089",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000464240",
+      "name": "令和６年度デジタル改革共創プラットフォームに係る運用保守業務（令和６年10月～令和７年３月）",
+      "awardDate": "2024-09-25",
+      "price": 64800000.0,
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "corporateNumber": "7010001088960",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000478075",
+      "name": "令和７年度デジタル改革共創プラットフォームに係る運用保守業務",
+      "awardDate": "2025-03-10",
+      "price": 112900000.0,
+      "vendorName": "株式会社ウフル",
+      "corporateNumber": "7010401095879",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000487632",
+      "name": "令和７年度デジタル改革共創プラットフォームに係るライセンスの調達",
+      "awardDate": "2025-03-12",
+      "price": 157005000.0,
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "corporateNumber": "7010001088960",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000523411",
+      "name": "令和７年度デジタル改革共創プラットフォームへの参加及び 活用促進に関する調査研究",
+      "awardDate": "2025-05-22",
+      "price": 21700000.0,
+      "vendorName": "ＴＯＰＰＡＮ株式会社",
+      "corporateNumber": "8010501050089",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000528428",
+      "name": "令和７年度デジタル改革共創プラットフォームの技術調査研究",
+      "awardDate": "2025-06-30",
+      "price": 31500000.0,
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "corporateNumber": "7010001088960",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000556102",
+      "name": "令和８年度デジタル改革共創プラットフォームに係る運用保守業務",
+      "awardDate": "2026-03-06",
+      "price": 99380000.0,
+      "vendorName": "株式会社ウフル",
+      "corporateNumber": "7010401095879",
+      "bidMethodName": "一般競争入札・最低価格"
+    }
+  ]
 }

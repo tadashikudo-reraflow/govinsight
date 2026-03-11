@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "6546",
   "name": "情報提供等記録開示システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://myna.go.jp/html/about_mynaportal.html",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 15400000000.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -594,5 +594,15 @@
       "reflect_status": "年度内に改善を検討"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000449746",
+      "name": "情報提供等記録開示システムバックエンド機能の再構築及び運用保守業務一式",
+      "awardDate": "2024-06-06",
+      "price": 15400000000.0,
+      "vendorName": "アクセンチュア株式会社",
+      "corporateNumber": "7010401001556",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

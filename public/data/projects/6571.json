@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "6571",
   "name": "デジタル庁内開発情報システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 254061400.0,
+  "vendorCount": 3,
   "budgets": [
     {
       "budget_year": 2025,
@@ -244,5 +244,33 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000453121",
+      "name": "令和６年度デジタル庁内開発情報システムにおけるデザイン・開発支援サービスツール（Notion）のライセンス調達",
+      "awardDate": "2024-05-30",
+      "price": 10680000.0,
+      "vendorName": "株式会社ノースサンド",
+      "corporateNumber": "6010601048200",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000448416",
+      "name": "デジタル庁内開発情報システム基盤環境の評価及び再設計並びに端末の調達",
+      "awardDate": "2024-06-03",
+      "price": 179830000.0,
+      "vendorName": "ＮＴＴドコモビジネス株式会社",
+      "corporateNumber": "7010001064648",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000549998",
+      "name": "令和７年度デジタル庁内開発情報システム基盤環境の設計・構築業務の調達",
+      "awardDate": "2025-12-16",
+      "price": 63551400.0,
+      "vendorName": "伊藤忠テクノソリューションズ株式会社",
+      "corporateNumber": "2010001010788",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

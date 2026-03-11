@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "6561",
   "name": "公金受取口座登録システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/account_registration/",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 68458860.0,
+  "vendorCount": 1,
   "budgets": [
     {
       "budget_year": 2025,
@@ -741,5 +741,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000444650",
+      "name": "公金受取口座登録等通知書印刷印字加工・返戻対応業務",
+      "awardDate": "2024-05-08",
+      "price": 68458860.0,
+      "vendorName": "株式会社ＤＮＰデータテクノ",
+      "corporateNumber": "1050001028118",
+      "bidMethodName": "一般競争入札・最低価格"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T07:38:51Z",
+  "updatedAt": "2026-03-11T08:05:28Z",
   "id": "5559",
   "name": "サイバーセキュリティ対策等事業費",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 17500000.0,
-  "vendorCount": 1,
+  "totalAmount": 91712000.0,
+  "vendorCount": 3,
   "budgets": [
     {
       "budget_year": 2025,
@@ -360,13 +360,31 @@
   ],
   "procurements": [
     {
-      "id": "0000000000000530230",
-      "name": "セキュリティ・バイ・デザインの浸透を目的とした実践研修等の整備・拡充にかかる調査研究",
-      "awardDate": "2025-07-23",
-      "price": 17500000.0,
+      "id": "0000000000000454826",
+      "name": "情報セキュリティ内部監査一式",
+      "awardDate": "2024-09-18",
+      "price": 20940000.0,
+      "vendorName": "株式会社ケイテック",
+      "corporateNumber": "7021001009856",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000488470",
+      "name": "令和６年度セキュリティ統制のカタログ化に向けた調査研究",
+      "awardDate": "2025-01-31",
+      "price": 14000000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000531495",
+      "name": "スマートフォン端末のセキュリティ診断に係る業務委託",
+      "awardDate": "2025-09-08",
+      "price": 56772000.0,
       "vendorName": "株式会社ラック",
       "corporateNumber": "7010001134137",
-      "bidMethodName": "一般競争入札・総合評価"
+      "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]
 }
