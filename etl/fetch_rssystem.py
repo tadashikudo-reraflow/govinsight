@@ -14,7 +14,16 @@ import requests
 from config import RS_FILES, RS_TARGET_YEARS, rs_file_url
 
 TIMEOUT = 60
-HEADERS = {"User-Agent": "GovInsight-ETL/1.0 (https://govinsight.jp)"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/122.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+    "Referer": "https://rssystem.go.jp/",
+}
 
 
 def download_rs_year(year: int, output_dir: Path) -> dict[str, Path]:
