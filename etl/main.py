@@ -48,6 +48,7 @@ def run(data_dir: Path, output_dir: Path, dry_run: bool = False) -> int:
         csv_12 = year_files.get("1-2")
         csv_21 = year_files.get("2-1")
         csv_51 = year_files.get("5-1")
+        csv_41 = year_files.get("4-1")
 
         if not csv_12:
             print(f"  [WARN] {year}年度: 1-2_事業概要等が見つかりません。スキップ。")
@@ -57,6 +58,7 @@ def run(data_dir: Path, output_dir: Path, dry_run: bool = False) -> int:
             csv_12=csv_12,
             csv_21=csv_21 or csv_12,  # フォールバック
             csv_51=csv_51 or csv_12,
+            csv_41=csv_41,
             ministry_filter=DIGITAL_AGENCY_NAME,
         )
         if not df.empty:

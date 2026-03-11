@@ -70,6 +70,7 @@ def _build_project_detail(row, proc_df: pd.DataFrame, updated_at: str) -> dict:
 
     budgets = row.get("budgets") or []
     vendors = row.get("vendors") or []
+    evaluations = row.get("evaluations") or []
 
     total_amount = proc_df["price"].sum() if not proc_df.empty and "price" in proc_df.columns else 0
     vendor_count = proc_df["corporate_number"].nunique() if not proc_df.empty and "corporate_number" in proc_df.columns else 0
@@ -92,6 +93,7 @@ def _build_project_detail(row, proc_df: pd.DataFrame, updated_at: str) -> dict:
         "vendorCount": int(vendor_count),
         "budgets": budgets if isinstance(budgets, list) else [],
         "rsVendors": vendors if isinstance(vendors, list) else [],
+        "evaluations": evaluations if isinstance(evaluations, list) else [],
         "procurements": procurements,
     }
 
