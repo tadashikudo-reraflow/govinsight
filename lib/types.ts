@@ -127,3 +127,106 @@ export interface VendorAnalysis {
   procurementVendors: ProcurementVendor[];
   concentrationMetrics: ConcentrationMetrics;
 }
+
+// ---- ロックインリスク分析 ----------------------------------------
+export interface RiskSummary {
+  totalAmount: number;
+  noCompAmount: number;
+  compAmount: number;
+  noCompRate: number;
+  noCompCount: number;
+  compCount: number;
+  totalCount: number;
+  bigNoCompCount: number;
+  bigNoCompAmount: number;
+  maxLockInScore: number;
+}
+
+export interface RiskVendor {
+  corporateNumber: string;
+  name: string;
+  category: string;
+  noCompAmount: number;
+  noCompRate: number;
+  totalAmount: number;
+  noCompCount: number;
+  totalCount: number;
+  lockInScore: number;
+}
+
+export interface BigContract {
+  id: string;
+  name: string;
+  vendorName: string;
+  price: number;
+  bidMethodName: string;
+  awardDate: string;
+  projectId: string;
+  fiscalYear: number | null;
+  category: string;
+}
+
+export interface MethodSummary {
+  method: string;
+  count: number;
+  amount: number;
+  isNoComp: boolean;
+}
+
+export interface PriceTier {
+  tier: string;
+  count: number;
+  amount: number;
+}
+
+export interface RiskAnalysis {
+  updatedAt: string;
+  summary: RiskSummary;
+  riskVendors: RiskVendor[];
+  bigContracts: BigContract[];
+  methodSummary: MethodSummary[];
+  priceDistribution: PriceTier[];
+}
+
+// ---- 年度別トレンド分析 ------------------------------------------
+export interface TrendYear {
+  year: number;
+  totalAmount: number;
+  count: number;
+  noCompAmount: number;
+  noCompCount: number;
+  noCompRate: number;
+  avgContractSize: number;
+  vendorCount: number;
+  hhi: number | null;
+  topVendors: { name: string; amount: number }[];
+}
+
+export interface TrendYearMethod {
+  year: number;
+  method: string;
+  count: number;
+  amount: number;
+  isNoComp: boolean;
+}
+
+export interface TrendYearCategory {
+  year: number;
+  category: string;
+  count: number;
+  amount: number;
+}
+
+export interface TrendMonthly {
+  month: string;
+  count: number;
+  amount: number;
+}
+
+export interface TrendsData {
+  updatedAt: string;
+  byYear: TrendYear[];
+  byYearAndMethod: TrendYearMethod[];
+  byYearAndCategory: TrendYearCategory[];
+  monthly: TrendMonthly[];
+}

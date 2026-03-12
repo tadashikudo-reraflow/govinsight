@@ -92,6 +92,8 @@ def generate_all(
     _write_json(output_dir / "vendors.json", _build_vendors(procurements, updated_at))
     _write_json(output_dir / "dashboard.json", _build_dashboard(projects, procurements, updated_at))
     _write_json(output_dir / "vendor_analysis.json", _build_vendor_analysis(projects, procurements, updated_at))
+    _write_json(output_dir / "risk.json", _build_risk_analysis(procurements, updated_at))
+    _write_json(output_dir / "trends.json", _build_trends(procurements, updated_at))
 
     for pid in projects["project_id"]:
         proj_data = projects[projects["project_id"] == pid].iloc[0]
@@ -436,6 +438,218 @@ def _build_vendor_analysis(projects: pd.DataFrame, procurements: pd.DataFrame, u
             "hhi": hhi,
             "vendorCount": len(rs_by_vendor),
         },
+    }
+
+
+# ---- ロックインリスク分析 -----------------------------------------------
+
+def _is_no_competition(method: str) -> bool:
+    """入札方式が競争性なし（随意契約・一者応札等）かどうかを判定する。"""
+    return any(kw in str(method) for kw in ["随意", "一者応札", "競争性のない", "プロポーザル"])
+
+
+def _build_risk_analysis(procurements: pd.DataFrame, updated_at: str) -> dict:
+    """随意契約・ロックインリスク分析JSONを生成する。"""
+    if procurements.empty:
+        return {"updatedAt": updated_at, "summary": {}, "riskVendors": [], "bigContracts": [], "methodSummary": []}
+
+    procs = procurements.copy()
+    procs["is_no_comp"] = procs["bid_method_name"].apply(_is_no_competition)
+
+    total_amount = float(procs["price"].sum())
+    no_comp_procs = procs[procs["is_no_comp"]]
+    comp_procs = procs[~procs["is_no_comp"]]
+    no_comp_amount = float(no_comp_procs["price"].sum())
+    no_comp_rate = round(no_comp_amount / total_amount * 100, 1) if total_amount > 0 else 0
+
+    # ── ベンダー別リスクスコア ────────────────────────────────────
+    vendor_risk = (
+        no_comp_procs.groupby("corporate_number")
+        .agg(
+            name=("vendor_name", "last"),
+            no_comp_amount=("price", "sum"),
+            no_comp_count=("procurement_id", "count"),
+        )
+        .reset_index()
+    )
+    vendor_total = (
+        procs.groupby("corporate_number")
+        .agg(total_amount=("price", "sum"), total_count=("procurement_id", "count"))
+        .reset_index()
+    )
+    vm = vendor_risk.merge(vendor_total, on="corporate_number", how="left")
+    vm["no_comp_rate"] = (vm["no_comp_amount"] / vm["total_amount"] * 100).round(1)
+    # ロックインリスクスコア = 随意契約額（億円） × 随意契約率（%）
+    vm["lock_in_score"] = (vm["no_comp_amount"] / 1e8 * vm["no_comp_rate"]).round(1)
+    vm = vm.sort_values("lock_in_score", ascending=False)
+
+    risk_vendors = []
+    for _, row in vm.head(25).iterrows():
+        risk_vendors.append({
+            "corporateNumber": str(row["corporate_number"]),
+            "name": str(row["name"]),
+            "category": _classify_vendor_category(str(row["name"])),
+            "noCompAmount": float(row["no_comp_amount"]),
+            "noCompRate": float(row["no_comp_rate"]),
+            "totalAmount": float(row["total_amount"]),
+            "noCompCount": int(row["no_comp_count"]),
+            "totalCount": int(row["total_count"]),
+            "lockInScore": float(row["lock_in_score"]),
+        })
+
+    # ── 大型随意契約案件（1億円以上）────────────────────────────
+    big_no_comp = no_comp_procs[no_comp_procs["price"] >= 1e8].sort_values("price", ascending=False)
+    big_contracts = []
+    for _, row in big_no_comp.head(50).iterrows():
+        fy = row.get("fiscal_year")
+        big_contracts.append({
+            "id": str(row.get("procurement_id", "")),
+            "name": str(row.get("name", "")),
+            "vendorName": str(row.get("vendor_name", "")),
+            "price": float(row["price"]),
+            "bidMethodName": str(row.get("bid_method_name", "")),
+            "awardDate": str(row.get("award_date", "") or ""),
+            "projectId": str(row.get("project_id", "") or ""),
+            "fiscalYear": int(fy) if fy is not None and pd.notna(fy) else None,
+            "category": _classify_vendor_category(str(row.get("vendor_name", ""))),
+        })
+
+    # ── 入札方式別サマリー ─────────────────────────────────────────
+    method_rows = []
+    for method, grp in procs.groupby("bid_method_name"):
+        method_rows.append({
+            "method": str(method),
+            "count": int(len(grp)),
+            "amount": float(grp["price"].sum()),
+            "isNoComp": _is_no_competition(str(method)),
+        })
+    method_rows.sort(key=lambda x: x["amount"], reverse=True)
+
+    # ── 価格帯別随意契約分布 ─────────────────────────────────────
+    def price_tier(price: float) -> str:
+        if price >= 10e8:   return "10億円以上"
+        if price >= 1e8:    return "1〜10億円"
+        if price >= 1000e4: return "1千万〜1億円"
+        return "1千万円未満"
+
+    tier_dist: dict[str, dict] = {}
+    for _, row in no_comp_procs.iterrows():
+        t = price_tier(float(row["price"]))
+        if t not in tier_dist:
+            tier_dist[t] = {"tier": t, "count": 0, "amount": 0.0}
+        tier_dist[t]["count"] += 1
+        tier_dist[t]["amount"] += float(row["price"])
+    tiers_order = ["10億円以上", "1〜10億円", "1千万〜1億円", "1千万円未満"]
+    price_distribution = [tier_dist[t] for t in tiers_order if t in tier_dist]
+
+    return {
+        "updatedAt": updated_at,
+        "summary": {
+            "totalAmount": total_amount,
+            "noCompAmount": no_comp_amount,
+            "compAmount": float(comp_procs["price"].sum()),
+            "noCompRate": no_comp_rate,
+            "noCompCount": int(len(no_comp_procs)),
+            "compCount": int(len(comp_procs)),
+            "totalCount": int(len(procs)),
+            "bigNoCompCount": int(len(big_no_comp)),
+            "bigNoCompAmount": float(big_no_comp["price"].sum()),
+            "maxLockInScore": float(vm["lock_in_score"].max()) if not vm.empty else 0,
+        },
+        "riskVendors": risk_vendors,
+        "bigContracts": big_contracts,
+        "methodSummary": method_rows,
+        "priceDistribution": price_distribution,
+    }
+
+
+# ---- 年度別トレンド分析 -------------------------------------------------
+
+def _build_trends(procurements: pd.DataFrame, updated_at: str) -> dict:
+    """年度別・入札方式別・カテゴリ別トレンドJSONを生成する。"""
+    if procurements.empty:
+        return {"updatedAt": updated_at, "byYear": [], "byYearAndMethod": [], "byYearAndCategory": []}
+
+    procs = procurements.copy()
+    procs["fiscal_year"] = pd.to_numeric(procs["fiscal_year"], errors="coerce")
+    procs = procs.dropna(subset=["fiscal_year"])
+    procs["fiscal_year"] = procs["fiscal_year"].astype(int)
+    procs["is_no_comp"] = procs["bid_method_name"].apply(_is_no_competition)
+    procs["category"] = procs["vendor_name"].apply(_classify_vendor_category)
+
+    # ── 年度別サマリー ───────────────────────────────────────────
+    by_year = []
+    for year, grp in procs.groupby("fiscal_year"):
+        total = float(grp["price"].sum())
+        no_comp = grp[grp["is_no_comp"]]
+        no_comp_amt = float(no_comp["price"].sum())
+
+        # トップ3ベンダー
+        top3 = grp.groupby("vendor_name")["price"].sum().nlargest(3)
+
+        # ベンダー多様性（Herfindahl）
+        vendor_totals = grp.groupby("corporate_number")["price"].sum()
+        hhi = round(sum((v / total * 100) ** 2 for v in vendor_totals)) if total > 0 else None
+
+        by_year.append({
+            "year": int(year),
+            "totalAmount": total,
+            "count": int(len(grp)),
+            "noCompAmount": no_comp_amt,
+            "noCompCount": int(len(no_comp)),
+            "noCompRate": round(no_comp_amt / total * 100, 1) if total > 0 else 0,
+            "avgContractSize": round(total / len(grp) / 1e4) if len(grp) > 0 else 0,
+            "vendorCount": int(grp["corporate_number"].nunique()),
+            "hhi": hhi,
+            "topVendors": [{"name": k, "amount": float(v)} for k, v in top3.items()],
+        })
+    by_year.sort(key=lambda x: x["year"])
+
+    # ── 年度×入札方式 ────────────────────────────────────────────
+    by_year_method = []
+    for (year, method), grp in procs.groupby(["fiscal_year", "bid_method_name"]):
+        by_year_method.append({
+            "year": int(year),
+            "method": str(method),
+            "count": int(len(grp)),
+            "amount": float(grp["price"].sum()),
+            "isNoComp": _is_no_competition(str(method)),
+        })
+
+    # ── 年度×ベンダーカテゴリ ────────────────────────────────────
+    by_year_category = []
+    for (year, cat), grp in procs.groupby(["fiscal_year", "category"]):
+        by_year_category.append({
+            "year": int(year),
+            "category": str(cat),
+            "count": int(len(grp)),
+            "amount": float(grp["price"].sum()),
+        })
+
+    # ── 月次推移（award_date ベース）────────────────────────────
+    monthly = []
+    if "award_date" in procs.columns:
+        mdf = (
+            procs.dropna(subset=["award_date"])
+            .assign(month=lambda d: d["award_date"].str[:7])
+            .groupby("month")
+            .agg(count=("procurement_id", "count"), amount=("price", "sum"))
+            .reset_index()
+            .sort_values("month")
+        )
+        for _, row in mdf.iterrows():
+            monthly.append({
+                "month": str(row["month"]),
+                "count": int(row["count"]),
+                "amount": float(row["amount"]),
+            })
+
+    return {
+        "updatedAt": updated_at,
+        "byYear": by_year,
+        "byYearAndMethod": by_year_method,
+        "byYearAndCategory": by_year_category,
+        "monthly": monthly,
     }
 
 

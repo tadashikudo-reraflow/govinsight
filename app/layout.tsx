@@ -53,6 +53,18 @@ export default function RootLayout({
               >
                 依存分析
               </a>
+              <a
+                href="/risk"
+                className="hover:text-blue-200 transition-colors"
+              >
+                リスク
+              </a>
+              <a
+                href="/trends"
+                className="hover:text-blue-200 transition-colors"
+              >
+                トレンド
+              </a>
             </nav>
             <div className="ml-auto text-xs text-white/60">
               データソース: 政府RS情報システム・政府調達ポータル
