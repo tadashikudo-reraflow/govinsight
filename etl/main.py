@@ -15,7 +15,7 @@ import pandas as pd
 
 from config import DIGITAL_AGENCY_CODE, DIGITAL_AGENCY_NAME
 from fetch_procurement import fetch_all as fetch_procurement_all
-from fetch_rssystem import fetch_all as fetch_rs_all
+from fetch_rssystem import fetch_all as fetch_rs_all, scrape_project_pages
 from generate_json import generate_all
 from match import match
 from parse_procurement import parse_procurement
@@ -94,10 +94,21 @@ def run(data_dir: Path, output_dir: Path, dry_run: bool = False) -> int:
         )
         print(f"  合計: {len(all_procurements)}件")
 
+    # ---- Step 3.5: RS事業ページ スクレイピング（マッチング精度向上） -----------
+    print("\n[Step 3.5] RS事業ページ スクレイピング")
+    projects_with_url = [
+        {"id": str(row["project_id"]), "rsUrl": row.get("rsUrl") or ""}
+        for _, row in all_projects.iterrows()
+        if row.get("rsUrl")
+    ]
+    page_descriptions = scrape_project_pages(projects_with_url)
+
     # ---- Step 4: マッチング -----------------------------------------
     print("\n[Step 4] RS事業 × 落札案件 マッチング")
     if not all_procurements.empty:
-        all_procurements = match(all_projects, all_procurements)
+        all_procurements = match(
+            all_projects, all_procurements, page_descriptions=page_descriptions
+        )
 
     # ---- Step 5: JSON生成 ------------------------------------------
     print("\n[Step 5] JSON生成")

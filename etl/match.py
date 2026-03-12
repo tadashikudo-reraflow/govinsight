@@ -20,17 +20,21 @@ def match(
     projects: pd.DataFrame,
     procurements: pd.DataFrame,
     corrections_file: Path = Path(CORRECTIONS_FILE),
+    page_descriptions: dict[str, str] | None = None,
 ) -> pd.DataFrame:
     """RS事業と落札案件をマッチングし、procurementsにproject_idを付与して返す。
 
     改善点:
     - 調達案件名から「令和X年度」プレフィックスを除去して比較精度向上
-    - RS事業のマッチングテキストに overview を付加（先頭200字）
+    - overview テキスト + スクレイピングページテキストを TF-IDF に組み込み
+    - ベンダー名・overview キーワードによるセカンダリマッチング
     - 閾値を 0.30 に引き下げて再現率向上
 
     Args:
         projects: parse_rs.parse_projects() の出力
         procurements: parse_procurement.parse_procurement() の出力
+        corrections_file: 手動補正テーブルのパス
+        page_descriptions: {project_id: スクレイピング取得テキスト} の辞書（省略可）
 
     Returns:
         procurements に 'project_id' 列（null許容）を追加したDataFrame
@@ -39,17 +43,25 @@ def match(
         procurements["project_id"] = None
         return procurements
 
+    if page_descriptions is None:
+        page_descriptions = {}
+
     # Step 1: TF-IDF自動マッチング
     proc = procurements.copy()
     proc["project_id"] = None
 
     project_ids = projects["project_id"].tolist()
 
-    # RS事業: 事業名のみ（overview/purposeはテキスト長の非対称でコサイン類似度を下げるため除外）
-    project_texts = [
-        _normalize_text(str(row["name"]) if row["name"] else "")
-        for _, row in projects.iterrows()
-    ]
+    # RS事業: 事業名 + overview（先頭150字）+ スクレイピングテキスト（先頭300字）
+    # ※テキスト長の非対称はsublinear_tf=Trueで緩和
+    project_texts = []
+    for _, row in projects.iterrows():
+        pid = str(row.get("project_id") or "")
+        name = _normalize_text(str(row["name"]) if row["name"] else "")
+        overview = str(row.get("overview") or "")[:150]
+        scraped = page_descriptions.get(pid, "")[:300]
+        combined = " ".join(filter(None, [name, overview, scraped]))
+        project_texts.append(combined if combined.strip() else name)
 
     # 調達案件: 「令和X年度」プレフィックスを除去して比較精度向上
     proc_texts = [
