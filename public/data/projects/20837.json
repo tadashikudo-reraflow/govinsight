@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20837",
   "name": "政府によるAI 調達・利活用等調査事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 64200000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -68,5 +68,24 @@
       "reflect_status": "現状通り"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000480155",
+      "name": "政府による適切なAIの調達・利用の在り方等に関する調査研究",
+      "awardDate": "2024-12-23",
+      "price": 15200000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000496991",
+      "name": "政府による適切なAIの調達・利用の在り方及び政府共通AI基盤等に関する調査研究",
+      "awardDate": "2025-03-10",
+      "price": 49000000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

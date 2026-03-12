@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "6556",
   "name": "調達ポータル（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.p-portal.go.jp/pps-web-biz/UZA01/OZA0101",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 23906660.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -316,5 +316,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000539524",
+      "name": "（ＤＭＰ）Ｇビスポータルに必要なライセンスの購入",
+      "awardDate": "2025-10-01",
+      "price": 23906660.0,
+      "vendorName": "株式会社ユー・エス・イー",
+      "corporateNumber": "6290001049738",
+      "bidMethodName": "指名競争入札"
+    }
+  ]
 }

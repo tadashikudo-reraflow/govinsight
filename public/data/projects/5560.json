@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "5560",
   "name": "デジタル推進委員等環境整備事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "2023",
   "rsUrl": "https://www.digital.go.jp/policies/digital_promotion_staff/",
-  "totalAmount": 62749122.0,
-  "vendorCount": 1,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -211,15 +211,5 @@
       "reflect_status": "終了予定"
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000490008",
-      "name": "令和７年度デジタル推進委員等の受付及び管理等に係る委託業務",
-      "awardDate": "2025-03-19",
-      "price": 62749122.0,
-      "vendorName": "株式会社ＮＴＴマーケティングアクトＰｒｏＣＸ",
-      "corporateNumber": "5120001238738",
-      "bidMethodName": "一般競争入札・最低価格"
-    }
-  ]
+  "procurements": []
 }

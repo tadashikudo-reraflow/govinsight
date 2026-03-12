@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20041",
   "name": "戸籍情報連携システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2018",
   "endYear": "",
   "rsUrl": "https://www.moj.go.jp/MINJI/minji04_00082.html",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 1281730000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -398,5 +398,24 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000498251",
+      "name": "事業者等情報連携システムの設計・構築２期事業",
+      "awardDate": "2025-03-26",
+      "price": 281800000.0,
+      "vendorName": "株式会社日立社会情報サービス",
+      "corporateNumber": "3010601021713",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000501367",
+      "name": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub）に関する改修等業務",
+      "awardDate": "2025-04-14",
+      "price": 999930000.0,
+      "vendorName": "富士通株式会社",
+      "corporateNumber": "1020001071491",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

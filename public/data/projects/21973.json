@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "21973",
   "name": "公金受取口座登録制度広報事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 11342001.0,
-  "vendorCount": 1,
+  "totalAmount": 13806001.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -75,6 +75,15 @@
       "price": 11342001.0,
       "vendorName": "三松堂印刷株式会社",
       "corporateNumber": "1010001129704",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000446574",
+      "name": "金融機関での公金受取口座登録制度及び災害時・相続時照会制度に関するリーフレット４種の梱包・発送業務（再公告）",
+      "awardDate": "2024-05-16",
+      "price": 2464000.0,
+      "vendorName": "株式会社丸運",
+      "corporateNumber": "5010001141787",
       "bidMethodName": "一般競争入札・最低価格"
     }
   ]

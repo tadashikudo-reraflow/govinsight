@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20055",
   "name": "医療機関等情報支援システム（Ｇ－ＭＩＳ）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2020",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 145417542.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -97,5 +97,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000497839",
+      "name": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub）に関する工程管理等支援業務",
+      "awardDate": "2025-04-02",
+      "price": 145417542.0,
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "corporateNumber": "7010001088960",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

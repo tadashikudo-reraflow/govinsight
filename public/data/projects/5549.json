@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "5549",
   "name": "政府共通ウェブサイト（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 242801004.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -353,5 +353,51 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000435420",
+      "name": "令和６年度 デジタル庁ウェブサイト運用保守及び共通CMSの機能改善・追加等業務",
+      "awardDate": "2024-04-22",
+      "price": 63619592.0,
+      "vendorName": "株式会社電通デジタル",
+      "corporateNumber": "5010001086470",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000460119",
+      "name": "令和6年度 政府共通ウェブサイトに係る連絡会議等事務局運営及び課題解決に向けた調査研究",
+      "awardDate": "2024-07-29",
+      "price": 27250000.0,
+      "vendorName": "株式会社電通デジタル",
+      "corporateNumber": "5010001086470",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000482506",
+      "name": "政府ウェブサイトの情報発信に係る課題解決およびリファレンス構築等業務",
+      "awardDate": "2024-12-24",
+      "price": 48269084.0,
+      "vendorName": "株式会社電通デジタル",
+      "corporateNumber": "5010001086470",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000508034",
+      "name": "令和７年度デジタル庁ウェブサイト運用保守及び共通ＣＭＳの機能改善・追加等業務",
+      "awardDate": "2025-03-31",
+      "price": 90062328.0,
+      "vendorName": "株式会社電通デジタル",
+      "corporateNumber": "5010001086470",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000557238",
+      "name": "令和７年度 政府共通ウェブサイトに係る連絡会等事務局運営及び課題解決に向けた調査研究",
+      "awardDate": "2026-01-19",
+      "price": 13600000.0,
+      "vendorName": "株式会社電通デジタル",
+      "corporateNumber": "5010001086470",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

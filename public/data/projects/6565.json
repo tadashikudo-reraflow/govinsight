@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "6565",
   "name": "生活用データ連携基盤及びＷｅｌｌ－Ｂｅｉｎｇ指標管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/digital_garden_city_nation/",
-  "totalAmount": 199248075.0,
-  "vendorCount": 4,
+  "totalAmount": 43875000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -429,33 +429,6 @@
     }
   ],
   "procurements": [
-    {
-      "id": "0000000000000437464",
-      "name": "デジタル田園都市国家構想実現に向けた地域幸福度（Well-Being）指標設計、地域幸福度（Well-Being）サイトサービスの提供及び導入支援業務",
-      "awardDate": "2024-04-18",
-      "price": 59973075.0,
-      "vendorName": "三菱ＵＦＪリサーチ＆コンサルティング株式会社",
-      "corporateNumber": "3010401011971",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000437452",
-      "name": "デジタル田園都市国家構想実現のための生活用データ連携基盤推奨モジュール拡充・運用・自治体への運用支援等事業",
-      "awardDate": "2024-05-08",
-      "price": 60000000.0,
-      "vendorName": "一般社団法人データ社会推進協議会",
-      "corporateNumber": "4011005007414",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
-    {
-      "id": "0000000000000454229",
-      "name": "デジタル田園都市国家構想実現のための生活用データ連携基盤共同利用ビジョン検討支援等調査研究",
-      "awardDate": "2024-06-21",
-      "price": 35400000.0,
-      "vendorName": "日本電気株式会社",
-      "corporateNumber": "7010401022916",
-      "bidMethodName": "随意契約・公募型プロポーザル"
-    },
     {
       "id": "0000000000000500638",
       "name": "令和７年度Well-Being指標の活用のためのサイト改修・運用・保守業務",

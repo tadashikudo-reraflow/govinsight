@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20141",
   "name": "法人番号システム等（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2015",
   "endYear": "",
   "rsUrl": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 7000000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -426,5 +426,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000482491",
+      "name": "次期個人番号カードにおける（仮称）親展通信機能に関する調査研究事業",
+      "awardDate": "2024-12-23",
+      "price": 7000000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

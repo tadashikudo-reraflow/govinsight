@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "19668",
   "name": "契約管理システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 74948500.0,
-  "vendorCount": 2,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -68,33 +68,5 @@
       "reflect_status": ""
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000523446",
-      "name": "令和７年度ガバメントソリューションサービスにおける物品管理システムの機能拡充",
-      "awardDate": "2025-05-30",
-      "price": 5648500.0,
-      "vendorName": "株式会社グランドユニット",
-      "corporateNumber": "9010501031600",
-      "bidMethodName": "一般競争入札・最低価格"
-    },
-    {
-      "id": "0000000000000530890",
-      "name": "令和７年度ガバメントソリューションサービスに係るweb会議ツールライセンスの調達",
-      "awardDate": "2025-08-22",
-      "price": 25200000.0,
-      "vendorName": "日本電気株式会社",
-      "corporateNumber": "7010401022916",
-      "bidMethodName": "一般競争入札・最低価格"
-    },
-    {
-      "id": "0000000000000565134",
-      "name": "令和８年度ガバメントソリューションサービスに係るweb会議ツールライセンスの調達",
-      "awardDate": "2026-02-27",
-      "price": 44100000.0,
-      "vendorName": "日本電気株式会社",
-      "corporateNumber": "7010401022916",
-      "bidMethodName": "一般競争入札・最低価格"
-    }
-  ]
+  "procurements": []
 }

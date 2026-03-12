@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20182",
   "name": "国債関係システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2008",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 375400000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -167,5 +167,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000445982",
+      "name": "マイナポータル関係システムに係る工程管理等支援業務（令和６～７年度）",
+      "awardDate": "2024-06-13",
+      "price": 375400000.0,
+      "vendorName": "合同会社デロイトトーマツ",
+      "corporateNumber": "3010001076738",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20022",
   "name": "財務会計ＤＸ（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 176004237.0,
-  "vendorCount": 2,
+  "totalAmount": 395004237.0,
+  "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -142,6 +142,15 @@
       "price": 89640600.0,
       "vendorName": "Ｔａｋｒａｍ　Ｊａｐａｎ株式会社",
       "corporateNumber": "6011101047980",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000526108",
+      "name": "政府共通財務会計システムに関する全府省現状調査研究",
+      "awardDate": "2025-07-15",
+      "price": 219000000.0,
+      "vendorName": "有限責任監査法人トーマツ",
+      "corporateNumber": "5010405001703",
       "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]

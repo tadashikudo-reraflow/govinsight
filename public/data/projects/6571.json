@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "6571",
   "name": "デジタル庁内開発情報システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 10680000.0,
-  "vendorCount": 1,
+  "totalAmount": 293191400.0,
+  "vendorCount": 4,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -261,6 +261,33 @@
       "price": 10680000.0,
       "vendorName": "株式会社ノースサンド",
       "corporateNumber": "6010601048200",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000448416",
+      "name": "デジタル庁内開発情報システム基盤環境の評価及び再設計並びに端末の調達",
+      "awardDate": "2024-06-03",
+      "price": 179830000.0,
+      "vendorName": "ＮＴＴドコモビジネス株式会社",
+      "corporateNumber": "7010001064648",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000549998",
+      "name": "令和７年度デジタル庁内開発情報システム基盤環境の設計・構築業務の調達",
+      "awardDate": "2025-12-16",
+      "price": 63551400.0,
+      "vendorName": "伊藤忠テクノソリューションズ株式会社",
+      "corporateNumber": "2010001010788",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000569311",
+      "name": "デジタル庁内開発情報システム基盤環境におけるR8年度Jiraライセンス調達",
+      "awardDate": "2026-03-11",
+      "price": 39130000.0,
+      "vendorName": "リックソフト株式会社",
+      "corporateNumber": "1010001124218",
       "bidMethodName": "一般競争入札・最低価格"
     }
   ]

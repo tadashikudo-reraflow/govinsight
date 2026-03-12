@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20135",
   "name": "法人ベース・レジストリ（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 508044782.0,
+  "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -83,5 +83,33 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000458194",
+      "name": "法人ベース・レジストリ及び情報連携機能の構築に向けた調査研究・要件定義業務",
+      "awardDate": "2024-07-18",
+      "price": 127049782.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000486099",
+      "name": "法人ベース・レジストリシステムの設計・開発業務",
+      "awardDate": "2025-03-03",
+      "price": 365485000.0,
+      "vendorName": "キャップジェミニ株式会社",
+      "corporateNumber": "4010402035069",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000509127",
+      "name": "2025年度の支援情報ベース・レジストリシステムの運用保守業務",
+      "awardDate": "2025-03-21",
+      "price": 15510000.0,
+      "vendorName": "株式会社電算システム",
+      "corporateNumber": "5200001003514",
+      "bidMethodName": "一般競争入札・最低価格"
+    }
+  ]
 }

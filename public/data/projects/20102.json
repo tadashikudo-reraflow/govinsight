@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20102",
   "name": "法務省統合情報基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2020",
   "endYear": "2028",
   "rsUrl": "https://www.moj.go.jp/content/001416000.pdf",
-  "totalAmount": 6973700000.0,
-  "vendorCount": 3,
+  "totalAmount": 0.0,
+  "vendorCount": 0,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -356,33 +356,5 @@
       "reflect_status": ""
     }
   ],
-  "procurements": [
-    {
-      "id": "0000000000000456171",
-      "name": "令和６年度ガバメントソリューションサービスにおけるSOCサービス",
-      "awardDate": "2024-10-16",
-      "price": 394000000.0,
-      "vendorName": "株式会社ラック",
-      "corporateNumber": "7010001134137",
-      "bidMethodName": "一般競争入札・総合評価"
-    },
-    {
-      "id": "0000000000000478289",
-      "name": "令和７年度ガバメントソリューションサービスへの移行に係る端末の借入等",
-      "awardDate": "2025-03-27",
-      "price": 4939700000.0,
-      "vendorName": "日本電気株式会社",
-      "corporateNumber": "7010401022916",
-      "bidMethodName": "一般競争入札・総合評価"
-    },
-    {
-      "id": "0000000000000502575",
-      "name": "令和７年度ガバメントソリューションサービスのヘルプデスクサービス",
-      "awardDate": "2025-08-08",
-      "price": 1640000000.0,
-      "vendorName": "富士通ネットワークソリューションズ株式会社",
-      "corporateNumber": "7020001077145",
-      "bidMethodName": "一般競争入札・総合評価"
-    }
-  ]
+  "procurements": []
 }

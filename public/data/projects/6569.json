@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "6569",
   "name": "フロントサービスＡＰＩ基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/administrative_procedures_online",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 290906000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -617,5 +617,24 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000423195",
+      "name": "令和６年度フロントサービスAPI基盤に係る工程管理支援業務",
+      "awardDate": "2024-04-08",
+      "price": 127270000.0,
+      "vendorName": "合同会社デロイトトーマツ",
+      "corporateNumber": "3010001076738",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000491633",
+      "name": "令和７年度フロントサービスAPI基盤に係る工程管理支援業務",
+      "awardDate": "2025-03-19",
+      "price": 163636000.0,
+      "vendorName": "合同会社デロイトトーマツ",
+      "corporateNumber": "3010001076738",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

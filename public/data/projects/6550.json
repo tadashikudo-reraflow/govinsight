@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "6550",
   "name": "第二期政府共通プラットフォーム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "2028",
   "rsUrl": "",
-  "totalAmount": 11433761622.0,
-  "vendorCount": 3,
+  "totalAmount": 11722770022.0,
+  "vendorCount": 4,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -329,12 +329,30 @@
       "bidMethodName": "一般競争入札・総合評価"
     },
     {
+      "id": "0000000000000478116",
+      "name": "第二期政府共通プラットフォームにおけるプロジェクト管理等支援業務（令和７年度）の請負",
+      "awardDate": "2025-03-03",
+      "price": 140920000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
       "id": "0000000000000546651",
       "name": "第二期政府共通プラットフォームにおけるソフトウェア・サービス（令和８年度）の提供",
       "awardDate": "2026-03-11",
       "price": 136026000.0,
       "vendorName": "東京センチュリー株式会社",
       "corporateNumber": "6010401015821",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000546670",
+      "name": "第二期政府共通プラットフォームにおけるプロジェクト管理等支援業務（令和８年度）の請負",
+      "awardDate": "2026-03-11",
+      "price": 148088400.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
       "bidMethodName": "一般競争入札・総合評価"
     },
     {

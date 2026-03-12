@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "14",
   "name": "政府認証基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.gpki.go.jp/",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 1359078600.0,
+  "vendorCount": 5,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -208,5 +208,87 @@
       "reflect_status": "現状通り"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000441356",
+      "name": "政府認証基盤の監査等の請負",
+      "awardDate": "2024-04-02",
+      "price": 7940000.0,
+      "vendorName": "ＥＹストラテジー・アンド・コンサルティング株式会社",
+      "corporateNumber": "6010001107003",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000441365",
+      "name": "政府認証基盤のWebTrust for CA認定取得に向けた診断業務の請負",
+      "awardDate": "2024-04-02",
+      "price": 15500000.0,
+      "vendorName": "有限責任監査法人トーマツ",
+      "corporateNumber": "5010405001703",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000443624",
+      "name": "政府認証基盤の暗号アルゴリズム移行に係る検証環境の拡充のための設計・開発・構築等の請負",
+      "awardDate": "2024-05-16",
+      "price": 242000000.0,
+      "vendorName": "一般社団法人行政情報システム研究所",
+      "corporateNumber": "9010005005761",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000435307",
+      "name": "政府認証基盤の暗号アルゴリズム移行に係る検証環境の機能拡充のための機器等の借入及び運用・保守の請負",
+      "awardDate": "2024-06-28",
+      "price": 637429600.0,
+      "vendorName": "一般社団法人行政情報システム研究所",
+      "corporateNumber": "9010005005761",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000487271",
+      "name": "政府認証基盤のWebTrust for CA認定取得支援の請負",
+      "awardDate": "2025-03-03",
+      "price": 28600000.0,
+      "vendorName": "有限責任監査法人トーマツ",
+      "corporateNumber": "5010405001703",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000500825",
+      "name": "政府認証基盤の監査等の請負",
+      "awardDate": "2025-03-07",
+      "price": 7770000.0,
+      "vendorName": "ＥＹ新日本有限責任監査法人",
+      "corporateNumber": "1010005005059",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000499847",
+      "name": "第一期 政府認証基盤のシステム更改のための設計・開発・構築等の請負",
+      "awardDate": "2025-04-15",
+      "price": 399998500.0,
+      "vendorName": "一般社団法人行政情報システム研究所",
+      "corporateNumber": "9010005005761",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000539689",
+      "name": "政府認証基盤のUSBトークンの購入",
+      "awardDate": "2025-09-19",
+      "price": 4840500.0,
+      "vendorName": "株式会社フォー",
+      "corporateNumber": "8012401012945",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000540292",
+      "name": "令和７年度教育分野の認証基盤に関する調査研究",
+      "awardDate": "2025-09-30",
+      "price": 15000000.0,
+      "vendorName": "ＥＹストラテジー・アンド・コンサルティング株式会社",
+      "corporateNumber": "6010001107003",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

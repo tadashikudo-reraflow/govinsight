@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "7638",
   "name": "死亡届・死亡診断書オンライン・デジタル化（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "2025",
   "rsUrl": "",
-  "totalAmount": 54540000.0,
-  "vendorCount": 1,
+  "totalAmount": 436340000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -191,6 +191,15 @@
       "price": 54540000.0,
       "vendorName": "株式会社ＪＤＳＣ",
       "corporateNumber": "6010001193638",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000525913",
+      "name": "死亡診断書、死亡情報等管理システム導入に関する調査研究",
+      "awardDate": "2025-07-10",
+      "price": 381800000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
       "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]

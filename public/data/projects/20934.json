@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:34:34Z",
+  "updatedAt": "2026-03-12T08:47:12Z",
   "id": "20934",
   "name": "自治体のデジタルサービス実装に向けた調査研究事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "2025",
   "rsUrl": "",
-  "totalAmount": 29992000.0,
-  "vendorCount": 1,
+  "totalAmount": 38192000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -92,6 +92,15 @@
       "vendorName": "ラトナ株式会社",
       "corporateNumber": "9011001121627",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000541717",
+      "name": "令和７年度 社会のデジタル化意識に係る調査研究事業",
+      "awardDate": "2025-10-27",
+      "price": 8200000.0,
+      "vendorName": "株式会社インテージリサーチ",
+      "corporateNumber": "6012701004917",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }
