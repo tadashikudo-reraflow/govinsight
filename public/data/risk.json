@@ -1,0 +1,898 @@
+{
+  "updatedAt": "2026-03-12T08:22:29Z",
+  "summary": {
+    "totalAmount": 168873034776.0,
+    "noCompAmount": 60544141019.0,
+    "compAmount": 108328893757.0,
+    "noCompRate": 35.9,
+    "noCompCount": 201,
+    "compCount": 283,
+    "totalCount": 484,
+    "bigNoCompCount": 101,
+    "bigNoCompAmount": 55349513692.0,
+    "maxLockInScore": 15002.6
+  },
+  "riskVendors": [
+    {
+      "corporateNumber": "7010401001556",
+      "name": "アクセンチュア株式会社",
+      "category": "外資コンサル",
+      "noCompAmount": 16324903000.0,
+      "noCompRate": 91.9,
+      "totalAmount": 17766428000.0,
+      "noCompCount": 5,
+      "totalCount": 7,
+      "lockInScore": 15002.6
+    },
+    {
+      "corporateNumber": "6010601062093",
+      "name": "株式会社ＮＴＴデータ",
+      "category": "国内大手SI",
+      "noCompAmount": 9618472203.0,
+      "noCompRate": 79.1,
+      "totalAmount": 12162961849.0,
+      "noCompCount": 14,
+      "totalCount": 22,
+      "lockInScore": 7608.2
+    },
+    {
+      "corporateNumber": "1020001071491",
+      "name": "富士通株式会社",
+      "category": "国内大手SI",
+      "noCompAmount": 3749131000.0,
+      "noCompRate": 98.0,
+      "totalAmount": 3827131000.0,
+      "noCompCount": 6,
+      "totalCount": 7,
+      "lockInScore": 3674.1
+    },
+    {
+      "corporateNumber": "2010701032272",
+      "name": "フューチャーアーキテクト株式会社",
+      "category": "国内コンサル・ベンダー",
+      "noCompAmount": 2460500000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 2460500000.0,
+      "noCompCount": 5,
+      "totalCount": 5,
+      "lockInScore": 2460.5
+    },
+    {
+      "corporateNumber": "7011101033773",
+      "name": "ＳＢテクノロジー株式会社",
+      "category": "国内通信",
+      "noCompAmount": 2080974000.0,
+      "noCompRate": 89.8,
+      "totalAmount": 2317254000.0,
+      "noCompCount": 4,
+      "totalCount": 6,
+      "lockInScore": 1868.7
+    },
+    {
+      "corporateNumber": "9010401127151",
+      "name": "シンプレクス株式会社",
+      "category": "その他",
+      "noCompAmount": 1933800000.0,
+      "noCompRate": 92.3,
+      "totalAmount": 2094502500.0,
+      "noCompCount": 3,
+      "totalCount": 4,
+      "lockInScore": 1784.9
+    },
+    {
+      "corporateNumber": "8010401073462",
+      "name": "株式会社ＳＨＩＦＴ",
+      "category": "その他",
+      "noCompAmount": 1780212674.0,
+      "noCompRate": 95.3,
+      "totalAmount": 1867512674.0,
+      "noCompCount": 8,
+      "totalCount": 9,
+      "lockInScore": 1696.5
+    },
+    {
+      "corporateNumber": "8010001144647",
+      "name": "ＫＰＭＧコンサルティング株式会社",
+      "category": "その他",
+      "noCompAmount": 1689630000.0,
+      "noCompRate": 92.5,
+      "totalAmount": 1826630000.0,
+      "noCompCount": 4,
+      "totalCount": 7,
+      "lockInScore": 1562.9
+    },
+    {
+      "corporateNumber": "1010401023102",
+      "name": "ＰｗＣコンサルティング合同会社",
+      "category": "その他",
+      "noCompAmount": 2059834391.0,
+      "noCompRate": 73.9,
+      "totalAmount": 2785824369.0,
+      "noCompCount": 10,
+      "totalCount": 19,
+      "lockInScore": 1522.2
+    },
+    {
+      "corporateNumber": "3010001076738",
+      "name": "合同会社デロイトトーマツ",
+      "category": "外資コンサル",
+      "noCompAmount": 1116830250.0,
+      "noCompRate": 98.6,
+      "totalAmount": 1132830250.0,
+      "noCompCount": 6,
+      "totalCount": 7,
+      "lockInScore": 1101.2
+    },
+    {
+      "corporateNumber": "6010001030403",
+      "name": "株式会社三菱総合研究所",
+      "category": "その他",
+      "noCompAmount": 1109400500.0,
+      "noCompRate": 84.7,
+      "totalAmount": 1309750500.0,
+      "noCompCount": 9,
+      "totalCount": 11,
+      "lockInScore": 939.7
+    },
+    {
+      "corporateNumber": "8010001085296",
+      "name": "アビームコンサルティング株式会社",
+      "category": "その他",
+      "noCompAmount": 1224396915.0,
+      "noCompRate": 76.3,
+      "totalAmount": 1604376915.0,
+      "noCompCount": 10,
+      "totalCount": 18,
+      "lockInScore": 934.2
+    },
+    {
+      "corporateNumber": "1010401084788",
+      "name": "株式会社ＦＩＸＥＲ",
+      "category": "その他",
+      "noCompAmount": 879800000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 879800000.0,
+      "noCompCount": 1,
+      "totalCount": 1,
+      "lockInScore": 879.8
+    },
+    {
+      "corporateNumber": "9010001087242",
+      "name": "富士電機ＩＴソリューション株式会社",
+      "category": "その他",
+      "noCompAmount": 757000000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 757000000.0,
+      "noCompCount": 1,
+      "totalCount": 1,
+      "lockInScore": 757.0
+    },
+    {
+      "corporateNumber": "2012801014142",
+      "name": "株式会社コンフィック",
+      "category": "その他",
+      "noCompAmount": 750765000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 750765000.0,
+      "noCompCount": 2,
+      "totalCount": 2,
+      "lockInScore": 750.8
+    },
+    {
+      "corporateNumber": "7010001088960",
+      "name": "デロイトトーマツコンサルティング合同会社",
+      "category": "外資コンサル",
+      "noCompAmount": 1013348542.0,
+      "noCompRate": 68.3,
+      "totalAmount": 1483188562.0,
+      "noCompCount": 8,
+      "totalCount": 13,
+      "lockInScore": 692.1
+    },
+    {
+      "corporateNumber": "7010001008844",
+      "name": "株式会社日立製作所",
+      "category": "国内大手SI",
+      "noCompAmount": 585206710.0,
+      "noCompRate": 96.0,
+      "totalAmount": 609356710.0,
+      "noCompCount": 1,
+      "totalCount": 2,
+      "lockInScore": 561.8
+    },
+    {
+      "corporateNumber": "3120001079845",
+      "name": "さくらインターネット株式会社",
+      "category": "国内通信",
+      "noCompAmount": 447454650.0,
+      "noCompRate": 100.0,
+      "totalAmount": 447454650.0,
+      "noCompCount": 1,
+      "totalCount": 1,
+      "lockInScore": 447.5
+    },
+    {
+      "corporateNumber": "3010001035099",
+      "name": "株式会社ＡＤＫマーケティング・ソリューションズ",
+      "category": "その他",
+      "noCompAmount": 436361000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 436361000.0,
+      "noCompCount": 1,
+      "totalCount": 1,
+      "lockInScore": 436.4
+    },
+    {
+      "corporateNumber": "4010402035069",
+      "name": "キャップジェミニ株式会社",
+      "category": "その他",
+      "noCompAmount": 463285000.0,
+      "noCompRate": 88.8,
+      "totalAmount": 521535000.0,
+      "noCompCount": 2,
+      "totalCount": 4,
+      "lockInScore": 411.4
+    },
+    {
+      "corporateNumber": "9020001071492",
+      "name": "富士電機株式会社",
+      "category": "その他",
+      "noCompAmount": 395500000.0,
+      "noCompRate": 100.0,
+      "totalAmount": 395500000.0,
+      "noCompCount": 2,
+      "totalCount": 2,
+      "lockInScore": 395.5
+    },
+    {
+      "corporateNumber": "6010001107003",
+      "name": "ＥＹストラテジー・アンド・コンサルティング株式会社",
+      "category": "その他",
+      "noCompAmount": 445321800.0,
+      "noCompRate": 78.7,
+      "totalAmount": 565920800.0,
+      "noCompCount": 4,
+      "totalCount": 10,
+      "lockInScore": 350.5
+    },
+    {
+      "corporateNumber": "9010005005761",
+      "name": "一般社団法人行政情報システム研究所",
+      "category": "その他",
+      "noCompAmount": 641998500.0,
+      "noCompRate": 50.2,
+      "totalAmount": 1279428100.0,
+      "noCompCount": 2,
+      "totalCount": 3,
+      "lockInScore": 322.3
+    },
+    {
+      "corporateNumber": "1010001100425",
+      "name": "株式会社ぎょうせい",
+      "category": "その他",
+      "noCompAmount": 349030000.0,
+      "noCompRate": 86.5,
+      "totalAmount": 403670000.0,
+      "noCompCount": 2,
+      "totalCount": 4,
+      "lockInScore": 301.9
+    },
+    {
+      "corporateNumber": "3010601021713",
+      "name": "株式会社日立社会情報サービス",
+      "category": "国内大手SI",
+      "noCompAmount": 390800000.0,
+      "noCompRate": 74.8,
+      "totalAmount": 522494000.0,
+      "noCompCount": 2,
+      "totalCount": 4,
+      "lockInScore": 292.3
+    }
+  ],
+  "bigContracts": [
+    {
+      "id": "0000000000000449746",
+      "name": "情報提供等記録開示システムバックエンド機能の再構築及び運用保守業務一式",
+      "vendorName": "アクセンチュア株式会社",
+      "price": 15400000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-06-06",
+      "projectId": "6546",
+      "fiscalYear": 2024,
+      "category": "外資コンサル"
+    },
+    {
+      "id": "0000000000000438065",
+      "name": "法人設立等各種ワンストップサービスに係るAPI連携機能の追加開発及び運用保守業務一式",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 3266636364.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-05",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000490027",
+      "name": "国家資格等情報連携・活用システムの改修等に係る設計・開発等業務（令和７年度）",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 1549000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-03",
+      "projectId": "5548",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000442120",
+      "name": "令和６年度ガバメントクラウド早期移行団体検証の管理組織（PMO）支援等の業務",
+      "vendorName": "ＫＰＭＧコンサルティング株式会社",
+      "price": 1389000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-05-07",
+      "projectId": "5543",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000522777",
+      "name": "e-Gov審査支援サービス2025年度機能拡充等",
+      "vendorName": "富士通株式会社",
+      "price": 1280000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-05-29",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000440639",
+      "name": "令和６年度マイナポータルフロントの改善及び運用",
+      "vendorName": "シンプレクス株式会社",
+      "price": 1204800000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-05",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000421438",
+      "name": "令和６年度　補助金申請システムの開発等業務",
+      "vendorName": "株式会社ＳＨＩＦＴ",
+      "price": 1102825854.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-07-18",
+      "projectId": "27",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000495656",
+      "name": "令和7年度公共サービスメッシュ（自治体内情報活用サービス）にかかる設計・開発業務一式",
+      "vendorName": "フューチャーアーキテクト株式会社",
+      "price": 1033635000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-26",
+      "projectId": "5544",
+      "fiscalYear": 2024,
+      "category": "国内コンサル・ベンダー"
+    },
+    {
+      "id": "0000000000000501367",
+      "name": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub）に関する改修等業務",
+      "vendorName": "富士通株式会社",
+      "price": 999930000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-14",
+      "projectId": "20041",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000533950",
+      "name": "e-Gov電子申請サービス2025年度機能拡充等",
+      "vendorName": "日本電気株式会社",
+      "price": 979900488.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-08-08",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000497655",
+      "name": "令和７年度 補助金申請システムの改修等業務",
+      "vendorName": "ＳＢテクノロジー株式会社",
+      "price": 914545000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-02",
+      "projectId": "27",
+      "fiscalYear": 2025,
+      "category": "国内通信"
+    },
+    {
+      "id": "0000000000000521305",
+      "name": "令和７年度 補助金申請システムの改修等業務",
+      "vendorName": "ＳＢテクノロジー株式会社",
+      "price": 914545000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-31",
+      "projectId": "27",
+      "fiscalYear": 2024,
+      "category": "国内通信"
+    },
+    {
+      "id": "0000000000000439481",
+      "name": "標準型電子カルテシステムα版の設計・開発業務",
+      "vendorName": "株式会社ＦＩＸＥＲ",
+      "price": 879800000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-12",
+      "projectId": "7634",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000453610",
+      "name": "公共サービスメッシュ設計・開発等にかかる工程管理等支援業務（R6ー７）",
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "price": 843933231.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-07-18",
+      "projectId": "5544",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000437964",
+      "name": "保険証利用受付システムの追加開発及び運用保守業務一式",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 805181819.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-05",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000511639",
+      "name": "行政文書の電子的管理システム（新EASY）（仮称）の整備等に係る令和７年度設計・開発等業務の請負",
+      "vendorName": "富士電機ＩＴソリューション株式会社",
+      "price": 757000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-25",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000494676",
+      "name": "職員ID 基盤の実現に向けたβ版システム整備事業",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 720000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-17",
+      "projectId": "6567",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000426805",
+      "name": "給付支援サービスの改修等対応",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 646360000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-05",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000543891",
+      "name": "令和８年度 政府共通決済基盤における国庫納付機能の実装整備事業",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 636119200.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2026-03-02",
+      "projectId": "6573",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000481659",
+      "name": "e-Gov審査支援サービス2024年度機能拡充等",
+      "vendorName": "富士通株式会社",
+      "price": 585450000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-12-20",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000445792",
+      "name": "総合運用・監視システム（COSMOS）の整備等の調達",
+      "vendorName": "株式会社日立製作所",
+      "price": 585206710.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-05-30",
+      "projectId": "6570",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000453611",
+      "name": "プッシュ型サービス実現に関する調査研究および公共サービスメッシュ（自治体内情報活用サービス）にかかる実証事業",
+      "vendorName": "フューチャーアーキテクト株式会社",
+      "price": 545215000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-07-18",
+      "projectId": "5544",
+      "fiscalYear": 2024,
+      "category": "国内コンサル・ベンダー"
+    },
+    {
+      "id": "0000000000000420323",
+      "name": "令和６年度～令和８年度　旅費等内部管理業務共通システムのプロジェクト管理支援業務",
+      "vendorName": "アビームコンサルティング株式会社",
+      "price": 496252350.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-07-18",
+      "projectId": "25",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000530895",
+      "name": "ガバメントクラウド利用システム情報の評価に係る支援業務（令和7年度）",
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "price": 470470920.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-07-07",
+      "projectId": "5543",
+      "fiscalYear": 2025,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000529941",
+      "name": "GCAS利用者向けサポート等運用構築業務（令和7年度）",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 455170920.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-07-01",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000518182",
+      "name": "令和７年度 政府共通決済基盤における国庫納付機能の実装整備事業",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 453381000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-05-30",
+      "projectId": "6573",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000424436",
+      "name": "デジタルマーケットプレイスカタログサイト開発及び運用等業務",
+      "vendorName": "シンプレクス株式会社",
+      "price": 450000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-01",
+      "projectId": "7635",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000481799",
+      "name": "ガバメントマルチクラウドネットワーク（GMCN）の設計開発等業務",
+      "vendorName": "さくらインターネット株式会社",
+      "price": 447454650.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-12-27",
+      "projectId": "5543",
+      "fiscalYear": 2024,
+      "category": "国内通信"
+    },
+    {
+      "id": "0000000000000502993",
+      "name": "令和７年度マイナンバーカード広報業務",
+      "vendorName": "株式会社ＡＤＫマーケティング・ソリューションズ",
+      "price": 436361000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-31",
+      "projectId": "6557",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000527937",
+      "name": "令和7年度人事・給与関係業務情報システムのガバメントクラウド移行に係る調査・研究業務",
+      "vendorName": "富士通株式会社",
+      "price": 421791000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-07-22",
+      "projectId": "5555",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000485311",
+      "name": "e-Gov電子申請サービス2024年度機能拡充等",
+      "vendorName": "日本電気株式会社",
+      "price": 418142000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-01-24",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000451025",
+      "name": "CRSAシステムの開発・構築業務",
+      "vendorName": "富士通株式会社",
+      "price": 408080000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-07-01",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000506208",
+      "name": "標準型電子カルテの本格展開に向けたα版の改修業務",
+      "vendorName": "フューチャーアーキテクト株式会社",
+      "price": 404500000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-18",
+      "projectId": "7634",
+      "fiscalYear": 2025,
+      "category": "国内コンサル・ベンダー"
+    },
+    {
+      "id": "0000000000000499847",
+      "name": "第一期 政府認証基盤のシステム更改のための設計・開発・構築等の請負",
+      "vendorName": "一般社団法人行政情報システム研究所",
+      "price": 399998500.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-15",
+      "projectId": "14",
+      "fiscalYear": 2025,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000437705",
+      "name": "法令編集・管理機能等に係る共通情報検索システムの機能向上開発",
+      "vendorName": "株式会社コンフィック",
+      "price": 382675000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-22",
+      "projectId": "13",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000495947",
+      "name": "旅費等内部管理業務共通システムの次期システム（V4）導入に係るサービス・業務企画（業務要件定義）支援",
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "price": 381800000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-04",
+      "projectId": "25",
+      "fiscalYear": 2025,
+      "category": "外資コンサル"
+    },
+    {
+      "id": "0000000000000525913",
+      "name": "死亡診断書、死亡情報等管理システム導入に関する調査研究",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 381800000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-07-10",
+      "projectId": "7638",
+      "fiscalYear": 2025,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000445982",
+      "name": "マイナポータル関係システムに係る工程管理等支援業務（令和６～７年度）",
+      "vendorName": "合同会社デロイトトーマツ",
+      "price": 375400000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-06-13",
+      "projectId": "20182",
+      "fiscalYear": 2024,
+      "category": "外資コンサル"
+    },
+    {
+      "id": "0000000000000515065",
+      "name": "法令編集・管理機能等に係る共通情報検索システムの機能向上開発",
+      "vendorName": "株式会社コンフィック",
+      "price": 368090000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-05-15",
+      "projectId": "13",
+      "fiscalYear": 2025,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000486099",
+      "name": "法人ベース・レジストリシステムの設計・開発業務",
+      "vendorName": "キャップジェミニ株式会社",
+      "price": 365485000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-03",
+      "projectId": "20135",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000525544",
+      "name": "病院情報システム等の刷新に向けた標準仕様策定業務",
+      "vendorName": "フューチャーアーキテクト株式会社",
+      "price": 354500000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-07-09",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "国内コンサル・ベンダー"
+    },
+    {
+      "id": "0000000000000494065",
+      "name": "令和７年度国・地方ネットワークの将来像の実現に向けた検証事業の支援等の業務",
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "price": 318181818.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-05-20",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000517884",
+      "name": "令和７年度住民向け汎用電子申請サービスの設計・開発等",
+      "vendorName": "アクセンチュア株式会社",
+      "price": 302727000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-05-21",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "外資コンサル"
+    },
+    {
+      "id": "0000000000000498251",
+      "name": "事業者等情報連携システムの設計・構築２期事業",
+      "vendorName": "株式会社日立社会情報サービス",
+      "price": 281800000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-26",
+      "projectId": "20041",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000461571",
+      "name": "令和６年度行政機関等向け申請管理サービスの設計・開発等",
+      "vendorName": "株式会社ＮＴＴデータ",
+      "price": 279090900.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-09-13",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000496907",
+      "name": "デジタルマーケットプレイスカタログサイト追加開発等及びガバメントクラウドへの移行作業の請負",
+      "vendorName": "シンプレクス株式会社",
+      "price": 279000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-03-28",
+      "projectId": "7635",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000459939",
+      "name": "令和６年度政府共通ネットワーク（LGWAN相互接続機能）の更改に係る設計支援業務",
+      "vendorName": "日本電気株式会社",
+      "price": 272574000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-08-23",
+      "projectId": "18",
+      "fiscalYear": 2024,
+      "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000498786",
+      "name": "職員ID基盤の実現に向けたβ版システム整備に係る工程管理等の支援業務",
+      "vendorName": "合同会社デロイトトーマツ",
+      "price": 270000000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2025-04-11",
+      "projectId": "6567",
+      "fiscalYear": 2025,
+      "category": "外資コンサル"
+    },
+    {
+      "id": "0000000000000437718",
+      "name": "第二期法制事務のデジタル化及び法令データの整備・利活用に関する調査・実証",
+      "vendorName": "株式会社ぎょうせい",
+      "price": 258130000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-04-22",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "その他"
+    },
+    {
+      "id": "0000000000000464577",
+      "name": "複数モビリティの分散協調運行のための基盤構築に関する実証調査研究",
+      "vendorName": "一般社団法人京都スマートシティ推進協議会",
+      "price": 254500000.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2024-09-10",
+      "projectId": "",
+      "fiscalYear": 2024,
+      "category": "その他"
+    }
+  ],
+  "methodSummary": [
+    {
+      "method": "一般競争入札・総合評価",
+      "count": 160,
+      "amount": 104982911238.0,
+      "isNoComp": false
+    },
+    {
+      "method": "随意契約・公募型プロポーザル",
+      "count": 201,
+      "amount": 60544141019.0,
+      "isNoComp": true
+    },
+    {
+      "method": "一般競争入札・最低価格",
+      "count": 121,
+      "amount": 3161373359.0,
+      "isNoComp": false
+    },
+    {
+      "method": "8014030",
+      "count": 1,
+      "amount": 160702500.0,
+      "isNoComp": false
+    },
+    {
+      "method": "指名競争入札",
+      "count": 1,
+      "amount": 23906660.0,
+      "isNoComp": false
+    }
+  ],
+  "priceDistribution": [
+    {
+      "tier": "10億円以上",
+      "count": 8,
+      "amount": 26225897218.0
+    },
+    {
+      "tier": "1〜10億円",
+      "count": 93,
+      "amount": 29123616474.0
+    },
+    {
+      "tier": "1千万〜1億円",
+      "count": 96,
+      "amount": 5165857509.0
+    },
+    {
+      "tier": "1千万円未満",
+      "count": 4,
+      "amount": 28769818.0
+    }
+  ]
+}
