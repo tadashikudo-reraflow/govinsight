@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "21895",
   "name": "デジタル社会推進標準ガイドラインの改定",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2014",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/resources/standard_guidelines",
-  "totalAmount": 39300000.0,
-  "vendorCount": 1,
+  "totalAmount": 200060568.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 37400000.0,
   "vendorSummary": {
@@ -68,6 +68,33 @@
     }
   ],
   "procurements": [
+    {
+      "id": "0000000000000462713",
+      "name": "サービスデザインガイドライン策定・更新に係る調査研究",
+      "awardDate": "2024-08-08",
+      "price": 61746200.0,
+      "vendorName": "有限責任監査法人トーマツ",
+      "corporateNumber": "5010405001703",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000525070",
+      "name": "令和７年度デジタル社会におけるトラスト及びデジタルアイデンティティに係る調査研究",
+      "awardDate": "2025-06-18",
+      "price": 45402368.0,
+      "vendorName": "アビームコンサルティング株式会社",
+      "corporateNumber": "8010001085296",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000541914",
+      "name": "R7サービスデザイン関連ガイドライン策定・更新に係る調査研究",
+      "awardDate": "2025-10-03",
+      "price": 53612000.0,
+      "vendorName": "有限責任監査法人トーマツ",
+      "corporateNumber": "5010405001703",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
     {
       "id": "0000000000000550359",
       "name": "職員確認ガイドラインに関する調査研究",

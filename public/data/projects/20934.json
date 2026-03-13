@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "20934",
   "name": "自治体のデジタルサービス実装に向けた調査研究事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "2025",
   "rsUrl": "",
-  "totalAmount": 38192000.0,
-  "vendorCount": 2,
+  "totalAmount": 62192000.0,
+  "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -92,6 +92,15 @@
       "vendorName": "ラトナ株式会社",
       "corporateNumber": "9011001121627",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000542119",
+      "name": "令和７年度　自治体の防災DXサービス・システムの調達効率化に向けた施策に関する調査研究",
+      "awardDate": "2025-10-07",
+      "price": 24000000.0,
+      "vendorName": "株式会社三菱総合研究所",
+      "corporateNumber": "6010001030403",
+      "bidMethodName": "一般競争入札・総合評価"
     },
     {
       "id": "0000000000000541717",

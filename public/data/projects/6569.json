@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "6569",
   "name": "フロントサービスＡＰＩ基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2022",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/administrative_procedures_online",
-  "totalAmount": 290906000.0,
-  "vendorCount": 1,
+  "totalAmount": 4871012764.0,
+  "vendorCount": 4,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -619,6 +619,24 @@
   ],
   "procurements": [
     {
+      "id": "0000000000000438065",
+      "name": "法人設立等各種ワンストップサービスに係るAPI連携機能の追加開発及び運用保守業務一式",
+      "awardDate": "2024-04-05",
+      "price": 3266636364.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000440639",
+      "name": "令和６年度マイナポータルフロントの改善及び運用",
+      "awardDate": "2024-04-05",
+      "price": 1204800000.0,
+      "vendorName": "シンプレクス株式会社",
+      "corporateNumber": "9010401127151",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
       "id": "0000000000000423195",
       "name": "令和６年度フロントサービスAPI基盤に係る工程管理支援業務",
       "awardDate": "2024-04-08",
@@ -634,6 +652,15 @@
       "price": 163636000.0,
       "vendorName": "合同会社デロイトトーマツ",
       "corporateNumber": "3010001076738",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000523756",
+      "name": "庁内API基盤の構築に係る設計・開発等支援及びテスト業務",
+      "awardDate": "2025-06-26",
+      "price": 108670400.0,
+      "vendorName": "株式会社ＳＨＩＦＴ",
+      "corporateNumber": "8010401073462",
       "bidMethodName": "随意契約・公募型プロポーザル"
     }
   ]

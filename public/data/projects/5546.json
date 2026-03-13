@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "5546",
   "name": "職員認証サービス（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "2027",
   "rsUrl": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/349887b3-b9be-4ed5-b631-42d0ad0359e6/237cd52c/20230330_policies_assessment_outline_07.pdf",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 636000000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -185,5 +185,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000496558",
+      "name": "令和７年度給付支援サービスに係る運用・保守業務",
+      "awardDate": "2025-03-26",
+      "price": 636000000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

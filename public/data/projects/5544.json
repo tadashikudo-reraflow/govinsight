@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "5544",
   "name": "公共サービスメッシュ（デジタル連携基盤）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/public_service_mesh",
-  "totalAmount": 4033485731.0,
+  "totalAmount": 3857135731.0,
   "vendorCount": 5,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -487,15 +487,6 @@
       "vendorName": "シンプレクス株式会社",
       "corporateNumber": "9010401127151",
       "bidMethodName": "8014030"
-    },
-    {
-      "id": "0000000000000474545",
-      "name": "令和６年度利用者起点及びＥＢＰＭに基づく公共サービスに関する調査・支援事業",
-      "awardDate": "2024-11-01",
-      "price": 176350000.0,
-      "vendorName": "株式会社三菱総合研究所",
-      "corporateNumber": "6010001030403",
-      "bidMethodName": "一般競争入札・総合評価"
     },
     {
       "id": "0000000000000495656",

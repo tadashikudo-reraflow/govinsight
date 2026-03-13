@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "4",
   "name": "情報システムの整備（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/development_management/",
-  "totalAmount": 114865000.0,
-  "vendorCount": 1,
+  "totalAmount": 141365000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 457280641000.0,
   "vendorSummary": {
@@ -133,6 +133,15 @@
       "vendorName": "ボストン・コンサルティング・グループ合同会社",
       "corporateNumber": "2010001029085",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000555079",
+      "name": "令和７年度国内主要産業における情報システムの開発・運用保守等に係るコスト抑制施策の事例研究",
+      "awardDate": "2026-01-08",
+      "price": 26500000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

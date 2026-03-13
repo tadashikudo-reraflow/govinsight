@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "7642",
   "name": "デジタル法制推進に必要な経費",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2023",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/digital-extraordinary-administrative-research-committee/",
-  "totalAmount": 47800000.0,
-  "vendorCount": 1,
+  "totalAmount": 71706660.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 68075000.0,
   "vendorSummary": {
@@ -705,6 +705,15 @@
       "vendorName": "アビームコンサルティング株式会社",
       "corporateNumber": "8010001085296",
       "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000539524",
+      "name": "（ＤＭＰ）Ｇビスポータルに必要なライセンスの購入",
+      "awardDate": "2025-10-01",
+      "price": 23906660.0,
+      "vendorName": "株式会社ユー・エス・イー",
+      "corporateNumber": "6290001049738",
+      "bidMethodName": "指名競争入札"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "7637",
   "name": "防災分野のデータ連携基盤（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2024",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/disaster_prevention/data-collaboration-infrastructure#demonstration-project-2024",
-  "totalAmount": 461098740.0,
-  "vendorCount": 5,
+  "totalAmount": 673860240.0,
+  "vendorCount": 6,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -227,6 +227,15 @@
   ],
   "procurements": [
     {
+      "id": "0000000000000458641",
+      "name": "防災ＤＸ分野の官民連携の高度化のための調査研究",
+      "awardDate": "2024-07-19",
+      "price": 31761500.0,
+      "vendorName": "株式会社三菱総合研究所",
+      "corporateNumber": "6010001030403",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
       "id": "0000000000000462306",
       "name": "防災分野のデータ連携基盤の実証に関する調査研究",
       "awardDate": "2024-08-22",
@@ -243,6 +252,15 @@
       "vendorName": "アビームコンサルティング株式会社",
       "corporateNumber": "8010001085296",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000497947",
+      "name": "令和７年度教育関連データのデータ連携の実現に向けた実証調査研究",
+      "awardDate": "2025-03-19",
+      "price": 181000000.0,
+      "vendorName": "富士ソフト株式会社",
+      "corporateNumber": "2020001043507",
+      "bidMethodName": "一般競争入札・総合評価"
     },
     {
       "id": "0000000000000542627",

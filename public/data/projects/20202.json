@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "20202",
   "name": "刑事手続関連業務システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2023",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 86350000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -97,5 +97,15 @@
       "reflect_status": "現状通り"
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000558924",
+      "name": "令和８年度刑事手続のIT化に係る三機関間システム連携支援等",
+      "awardDate": "2026-03-03",
+      "price": 86350000.0,
+      "vendorName": "ＮＴＴ東日本株式会社",
+      "corporateNumber": "8011101028104",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "20105",
   "name": "農林水産省共通申請サービス（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2018",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 302727000.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -391,5 +391,15 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000517884",
+      "name": "令和７年度住民向け汎用電子申請サービスの設計・開発等",
+      "awardDate": "2025-05-21",
+      "price": 302727000.0,
+      "vendorName": "アクセンチュア株式会社",
+      "corporateNumber": "7010401001556",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    }
+  ]
 }

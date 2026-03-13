@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "20041",
   "name": "戸籍情報連携システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2018",
   "endYear": "",
   "rsUrl": "https://www.moj.go.jp/MINJI/minji04_00082.html",
-  "totalAmount": 1281730000.0,
-  "vendorCount": 2,
+  "totalAmount": 1640730000.0,
+  "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -399,6 +399,15 @@
     }
   ],
   "procurements": [
+    {
+      "id": "0000000000000472665",
+      "name": "口座情報登録・連携システム（付番申出受付・連携機能、金融機関連携機能）の整備に係る運用・保守業務",
+      "awardDate": "2025-02-03",
+      "price": 359000000.0,
+      "vendorName": "株式会社野村総合研究所",
+      "corporateNumber": "4010001054032",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
     {
       "id": "0000000000000498251",
       "name": "事業者等情報連携システムの設計・構築２期事業",

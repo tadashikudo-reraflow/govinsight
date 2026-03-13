@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "5551",
   "name": "電子契約システム（工事・業務）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "2027",
   "rsUrl": "",
-  "totalAmount": 423598000.0,
-  "vendorCount": 2,
+  "totalAmount": 447228000.0,
+  "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -200,6 +200,15 @@
       "price": 107278000.0,
       "vendorName": "株式会社ＮＴＴデータ",
       "corporateNumber": "6010601062093",
+      "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000458089",
+      "name": "令和６年度電子署名法基準等検討及び電子契約の普及に関する調査研究業務",
+      "awardDate": "2024-07-18",
+      "price": 23630000.0,
+      "vendorName": "ボストン・コンサルティング・グループ合同会社",
+      "corporateNumber": "2010001029085",
       "bidMethodName": "随意契約・公募型プロポーザル"
     },
     {

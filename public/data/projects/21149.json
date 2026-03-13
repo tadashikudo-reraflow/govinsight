@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "21149",
   "name": "ＥＢＰＭ基盤システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 325864020.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -81,5 +81,24 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000474545",
+      "name": "令和６年度利用者起点及びＥＢＰＭに基づく公共サービスに関する調査・支援事業",
+      "awardDate": "2024-11-01",
+      "price": 176350000.0,
+      "vendorName": "株式会社三菱総合研究所",
+      "corporateNumber": "6010001030403",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000513307",
+      "name": "令和７年度利用者起点及びＥＢＰＭに基づく公共サービスに関する調査・支援事業",
+      "awardDate": "2025-05-30",
+      "price": 149514020.0,
+      "vendorName": "デロイトトーマツコンサルティング合同会社",
+      "corporateNumber": "7010001088960",
+      "bidMethodName": "一般競争入札・総合評価"
+    }
+  ]
 }

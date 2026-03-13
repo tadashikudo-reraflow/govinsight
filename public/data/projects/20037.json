@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "20037",
   "name": "登記情報システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2006",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 0.0,
-  "vendorCount": 0,
+  "totalAmount": 10939353.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -1287,5 +1287,33 @@
       "reflect_status": ""
     }
   ],
-  "procurements": []
+  "procurements": [
+    {
+      "id": "0000000000000481698",
+      "name": "登記情報連携の利用促進に関する説明用動画コンテンツ制作",
+      "awardDate": "2025-01-20",
+      "price": 584100.0,
+      "vendorName": "株式会社リバコン",
+      "corporateNumber": "7011101058416",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000521730",
+      "name": "登記情報連携の利用に係る行政機関からの問合せ対応等支援業務",
+      "awardDate": "2025-06-23",
+      "price": 1438017.0,
+      "vendorName": "株式会社ベルウェール渋谷",
+      "corporateNumber": "2011001041245",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000561627",
+      "name": "登記情報連携の利用に係る行政機関からの問合せ対応等の追加支援業務",
+      "awardDate": "2026-02-09",
+      "price": 8917236.0,
+      "vendorName": "株式会社ベルウェール渋谷",
+      "corporateNumber": "2011001041245",
+      "bidMethodName": "一般競争入札・最低価格"
+    }
+  ]
 }

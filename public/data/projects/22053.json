@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "22053",
   "name": "地方公共団体情報システム運用最適化支援事業",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2025",
   "endYear": "2026",
   "rsUrl": "",
-  "totalAmount": 68000000.0,
-  "vendorCount": 1,
+  "totalAmount": 70980000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -53,6 +53,15 @@
     }
   ],
   "procurements": [
+    {
+      "id": "0000000000000490288",
+      "name": "令和６年度　地方公共団体のシステム共通化に係る調査研究事業（密接関連業務・システム関係）",
+      "awardDate": "2025-02-20",
+      "price": 2980000.0,
+      "vendorName": "アビームコンサルティング株式会社",
+      "corporateNumber": "8010001085296",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
     {
       "id": "0000000000000539253",
       "name": "地方公共団体情報システムの標準化及びクラウド移行に関わる運用等経費の最適化（FinOps）に関する調査分析等業務（令和７年度）",

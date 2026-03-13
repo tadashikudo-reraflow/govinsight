@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "6561",
   "name": "公金受取口座登録システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/account_registration/",
-  "totalAmount": 84558860.0,
-  "vendorCount": 2,
+  "totalAmount": 68458860.0,
+  "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -759,15 +759,6 @@
       "vendorName": "株式会社ＤＮＰデータテクノ",
       "corporateNumber": "1050001028118",
       "bidMethodName": "一般競争入札・最低価格"
-    },
-    {
-      "id": "0000000000000530300",
-      "name": "口座登録法及び口座管理法に基づく金融機関連携業務の業務支援",
-      "awardDate": "2025-06-30",
-      "price": 16100000.0,
-      "vendorName": "日鉄ソリューションズ株式会社",
-      "corporateNumber": "9010001045803",
-      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

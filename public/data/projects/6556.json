@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T08:47:12Z",
+  "updatedAt": "2026-03-13T00:43:17Z",
   "id": "6556",
   "name": "調達ポータル（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.p-portal.go.jp/pps-web-biz/UZA01/OZA0101",
-  "totalAmount": 23906660.0,
+  "totalAmount": 11520000.0,
   "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -318,13 +318,22 @@
   ],
   "procurements": [
     {
-      "id": "0000000000000539524",
-      "name": "（ＤＭＰ）Ｇビスポータルに必要なライセンスの購入",
-      "awardDate": "2025-10-01",
-      "price": 23906660.0,
-      "vendorName": "株式会社ユー・エス・イー",
-      "corporateNumber": "6290001049738",
-      "bidMethodName": "指名競争入札"
+      "id": "0000000000000514197",
+      "name": "預貯金二法ポータルに係る運用・保守業務",
+      "awardDate": "2025-03-31",
+      "price": 5760000.0,
+      "vendorName": "合同会社Ｎ‐Ｗｏｒｋｓ",
+      "corporateNumber": "4011003013579",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000575518",
+      "name": "令和８年度預貯金二法ポータルに係る運用・保守業務",
+      "awardDate": "2026-03-06",
+      "price": 5760000.0,
+      "vendorName": "合同会社Ｎ‐Ｗｏｒｋｓ",
+      "corporateNumber": "4011003013579",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }
