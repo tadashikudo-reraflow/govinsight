@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from config import CORRECTIONS_FILE, MATCHING_THRESHOLD
+from config import CORRECTIONS_FILE, MATCHING_THRESHOLD, SECONDARY_LOWER_THRESHOLD
 
 
 def match(
@@ -170,7 +170,7 @@ def _vendor_secondary_match(
     if not project_vendor_map:
         return
 
-    lower_threshold = 0.15
+    lower_threshold = SECONDARY_LOWER_THRESHOLD
 
     for pos, (idx, row) in enumerate(proc.iterrows()):
         if row["project_id"] is not None:
@@ -234,7 +234,7 @@ def _overview_secondary_match(
     if not project_text_map:
         return
 
-    lower_threshold = 0.15
+    lower_threshold = SECONDARY_LOWER_THRESHOLD
 
     for pos, (idx, row) in enumerate(proc.iterrows()):
         if row["project_id"] is not None:
