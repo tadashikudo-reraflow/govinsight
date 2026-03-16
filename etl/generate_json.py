@@ -358,6 +358,9 @@ def _build_vendor_analysis(projects: pd.DataFrame, procurements: pd.DataFrame, u
         p = v["cloud_platform"]
         if not p:
             continue
+        # M365 (GSS) はクラウドプラットフォーム分析から除外（ライセンス費用であり IaaS/PaaS ではない）
+        if p == "Microsoft 365 (GSS)":
+            continue
         if p not in cloud_by_platform:
             cloud_by_platform[p] = {"platform": p, "amount": 0.0, "count": 0, "vendors": []}
         cloud_by_platform[p]["amount"] += v["amount"]

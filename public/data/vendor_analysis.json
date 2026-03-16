@@ -1,25 +1,15 @@
 {
-  "updatedAt": "2026-03-16T11:40:47Z",
+  "updatedAt": "2026-03-16T11:44:59Z",
   "totalRsSpend": 1070988761740.0,
-  "totalCloudSpend": 8064386450.0,
-  "cloudShare": 0.8,
+  "totalCloudSpend": 3958981450.0,
+  "cloudShare": 0.4,
   "cloudPlatforms": [
-    {
-      "platform": "Microsoft 365 (GSS)",
-      "amount": 4105405000.0,
-      "projectCount": 1,
-      "share": 50.9,
-      "countShare": 8.3,
-      "vendors": [
-        "日本マイクロソフト株式会社"
-      ]
-    },
     {
       "platform": "AWS",
       "amount": 2305727626.0,
       "projectCount": 5,
-      "share": 28.6,
-      "countShare": 41.7,
+      "share": 58.2,
+      "countShare": 45.5,
       "vendors": [
         "アマゾンウェブサービスジャパン合同会社"
       ]
@@ -28,8 +18,8 @@
       "platform": "Oracle Cloud",
       "amount": 1214825000.0,
       "projectCount": 1,
-      "share": 15.1,
-      "countShare": 8.3,
+      "share": 30.7,
+      "countShare": 9.1,
       "vendors": [
         "日本オラクル株式会社"
       ]
@@ -38,8 +28,8 @@
       "platform": "Google Cloud",
       "amount": 313877824.0,
       "projectCount": 2,
-      "share": 3.9,
-      "countShare": 16.7,
+      "share": 7.9,
+      "countShare": 18.2,
       "vendors": [
         "グーグル・クラウド・ジャパン合同会社"
       ]
@@ -48,8 +38,8 @@
       "platform": "Azure",
       "amount": 119570000.0,
       "projectCount": 2,
-      "share": 1.5,
-      "countShare": 16.7,
+      "share": 3.0,
+      "countShare": 18.2,
       "vendors": [
         "日本マイクロソフト株式会社"
       ]
@@ -59,7 +49,7 @@
       "amount": 4981000.0,
       "projectCount": 1,
       "share": 0.1,
-      "countShare": 8.3,
+      "countShare": 9.1,
       "vendors": [
         "株式会社セールスフォース・ジャパン"
       ]
