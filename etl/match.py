@@ -63,12 +63,15 @@ def match(
 
     project_ids = projects["project_id"].tolist()
 
-    # RS事業: 事業名のみ（overview/scraped テキストは長さ非対称でコサイン類似度を下げるため
-    # 初期TF-IDFには含めず、セカンダリマッチング専用とする）
-    project_texts = [
-        _normalize_text(str(row["name"]) if row["name"] else "")
-        for _, row in projects.iterrows()
-    ]
+    # RS事業: 事業名×3（重み付き）+ overview + purpose を結合
+    # 事業名を3倍繰り返してTF-IDFベクトルを事業名主導にし、
+    # overview/purpose のキーワード（ガバメントクラウド・GCAS等）も反映させる
+    project_texts = []
+    for _, row in projects.iterrows():
+        name = _normalize_text(str(row["name"]) if row["name"] else "")
+        overview = jaconv.normalize(str(row.get("overview") or "")[:200], "NFKC")
+        purpose = jaconv.normalize(str(row.get("purpose") or "")[:100], "NFKC")
+        project_texts.append(f"{name} {name} {name} {overview} {purpose}")
 
     # 調達案件: 「令和X年度」プレフィックスを除去して比較精度向上
     proc_texts = [
