@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "5548",
   "name": "国家資格等情報連携・活用システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 2664532000.0,
+  "totalAmount": 3186628000.0,
   "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -216,6 +216,15 @@
       "name": "国家資格等情報連携・活用システムに係る運用保守業務（令和７年度）",
       "awardDate": "2025-03-25",
       "price": 910992000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000547930",
+      "name": "国家資格等情報連携・活用システムに係る運用保守業務（令和８年度）",
+      "awardDate": "2026-03-23",
+      "price": 522096000.0,
       "vendorName": "株式会社ＮＴＴデータ",
       "corporateNumber": "6010601062093",
       "bidMethodName": "一般競争入札・総合評価"

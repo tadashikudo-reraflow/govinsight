@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "7644",
   "name": "民間ビジネスにおけるマイナンバーカード利活用促進事業",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2023",
   "endYear": "2025",
   "rsUrl": "",
-  "totalAmount": 822368349.0,
+  "totalAmount": 867468349.0,
   "vendorCount": 4,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -188,6 +188,15 @@
       "vendorName": "株式会社ＡＤＫマーケティング・ソリューションズ",
       "corporateNumber": "3010001035099",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000581094",
+      "name": "令和８年度 マイナンバーカード利活用促進事業支援業務",
+      "awardDate": "2026-03-25",
+      "price": 45100000.0,
+      "vendorName": "株式会社ＮＴＴデータ経営研究所",
+      "corporateNumber": "1010001143390",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "5543",
   "name": "ガバメントクラウド（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/gov_cloud/",
-  "totalAmount": 3494633388.0,
+  "totalAmount": 3572950163.0,
   "vendorCount": 14,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -1383,6 +1383,24 @@
       "vendorName": "クラウドエース株式会社",
       "corporateNumber": "1010001179419",
       "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000573091",
+      "name": "地方公共団体におけるガバメントクラウドへの移行支援事業（令和８年度標準化移行支援施策に係る支援事業）",
+      "awardDate": "2026-03-25",
+      "price": 62000000.0,
+      "vendorName": "ＫＰＭＧコンサルティング株式会社",
+      "corporateNumber": "8010001144647",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000584121",
+      "name": "ガバメントクラウド開発環境提供サービスにおけるライセンス管理業務（令和８年度）",
+      "awardDate": "2026-03-27",
+      "price": 16316775.0,
+      "vendorName": "クラウドエース株式会社",
+      "corporateNumber": "1010001179419",
+      "bidMethodName": "一般競争入札・最低価格"
     }
   ]
 }

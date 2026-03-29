@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "6561",
   "name": "公金受取口座登録システム（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,8 +12,8 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "https://www.digital.go.jp/policies/account_registration/",
-  "totalAmount": 359000000.0,
-  "vendorCount": 1,
+  "totalAmount": 1139000000.0,
+  "vendorCount": 2,
   "latestExecRate": null,
   "latestBudget": 0.0,
   "vendorSummary": {
@@ -758,6 +758,15 @@
       "price": 359000000.0,
       "vendorName": "株式会社野村総合研究所",
       "corporateNumber": "4010001054032",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000565959",
+      "name": "口座登録法に基づく口座情報登録・連携システムの運用・保守業務",
+      "awardDate": "2026-03-23",
+      "price": 780000000.0,
+      "vendorName": "株式会社ＮＴＴデータ",
+      "corporateNumber": "6010601062093",
       "bidMethodName": "一般競争入札・総合評価"
     }
   ]

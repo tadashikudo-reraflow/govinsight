@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "totalRsSpend": 1070988761740.0,
   "totalCloudSpend": 3958981450.0,
   "cloudShare": 0.4,
@@ -376,9 +376,9 @@
       "corporateNumber": "7010401022916",
       "name": "日本電気株式会社",
       "category": "国内大手SI",
-      "totalAmount": 38710398612.0,
-      "count": 21,
-      "noCompetitionRate": 19.0
+      "totalAmount": 45590398612.0,
+      "count": 22,
+      "noCompetitionRate": 18.2
     },
     {
       "corporateNumber": "9011101031552",
@@ -408,9 +408,9 @@
       "corporateNumber": "6010601062093",
       "name": "株式会社ＮＴＴデータ",
       "category": "国内大手SI",
-      "totalAmount": 11988348154.0,
-      "count": 20,
-      "noCompetitionRate": 60.0
+      "totalAmount": 13374723154.0,
+      "count": 23,
+      "noCompetitionRate": 52.2
     },
     {
       "corporateNumber": "6010701025710",
@@ -421,6 +421,14 @@
       "noCompetitionRate": 0.0
     },
     {
+      "corporateNumber": "7010001064648",
+      "name": "ＮＴＴドコモビジネス株式会社",
+      "category": "その他",
+      "totalAmount": 5385415200.0,
+      "count": 6,
+      "noCompetitionRate": 50.0
+    },
+    {
       "corporateNumber": "1020001071491",
       "name": "富士通株式会社",
       "category": "国内大手SI",
@@ -429,20 +437,28 @@
       "noCompetitionRate": 83.3
     },
     {
+      "corporateNumber": "9010401127151",
+      "name": "シンプレクス株式会社",
+      "category": "その他",
+      "totalAmount": 3515362500.0,
+      "count": 4,
+      "noCompetitionRate": 100.0
+    },
+    {
       "corporateNumber": "1010401023102",
       "name": "ＰｗＣコンサルティング合同会社",
       "category": "その他",
-      "totalAmount": 2413585969.0,
-      "count": 10,
-      "noCompetitionRate": 50.0
+      "totalAmount": 3018585969.0,
+      "count": 12,
+      "noCompetitionRate": 41.7
     },
     {
       "corporateNumber": "7011101033773",
       "name": "ＳＢテクノロジー株式会社",
       "category": "国内通信",
-      "totalAmount": 2317254000.0,
-      "count": 6,
-      "noCompetitionRate": 66.7
+      "totalAmount": 2348631000.0,
+      "count": 7,
+      "noCompetitionRate": 57.1
     },
     {
       "corporateNumber": "6010001011147",
@@ -453,36 +469,20 @@
       "noCompetitionRate": 0.0
     },
     {
-      "corporateNumber": "9010401127151",
-      "name": "シンプレクス株式会社",
-      "category": "その他",
-      "totalAmount": 1933800000.0,
-      "count": 3,
-      "noCompetitionRate": 100.0
-    },
-    {
       "corporateNumber": "8010401073462",
       "name": "株式会社ＳＨＩＦＴ",
       "category": "その他",
-      "totalAmount": 1867512674.0,
-      "count": 9,
-      "noCompetitionRate": 88.9
-    },
-    {
-      "corporateNumber": "7010001064648",
-      "name": "ＮＴＴドコモビジネス株式会社",
-      "category": "その他",
-      "totalAmount": 1835415200.0,
-      "count": 5,
-      "noCompetitionRate": 60.0
+      "totalAmount": 2047580674.0,
+      "count": 10,
+      "noCompetitionRate": 90.0
     },
     {
       "corporateNumber": "8010001144647",
       "name": "ＫＰＭＧコンサルティング株式会社",
       "category": "その他",
-      "totalAmount": 1826630000.0,
-      "count": 7,
-      "noCompetitionRate": 57.1
+      "totalAmount": 1888630000.0,
+      "count": 8,
+      "noCompetitionRate": 50.0
     },
     {
       "corporateNumber": "2010701032272",

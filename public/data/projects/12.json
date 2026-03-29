@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "12",
   "name": "電子決裁システム（ＥＡＳＹ）（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 1363200000.0,
+  "totalAmount": 1528200000.0,
   "vendorCount": 3,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -400,6 +400,15 @@
       "vendorName": "富士電機ＩＴソリューション株式会社",
       "corporateNumber": "9010001087242",
       "bidMethodName": "随意契約・公募型プロポーザル"
+    },
+    {
+      "id": "0000000000000549612",
+      "name": "行政文書の電子的管理システム（新EASY）（仮称）の整備等に係る令和8年度プロジェクト管理支援業務の請負",
+      "awardDate": "2026-03-26",
+      "price": 165000000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

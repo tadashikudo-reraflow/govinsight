@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "summary": {
-    "totalAmount": 166967337486.0,
-    "noCompAmount": 55973555629.0,
-    "compAmount": 110993781857.0,
-    "noCompRate": 33.5,
-    "noCompCount": 152,
-    "compCount": 195,
-    "totalCount": 347,
-    "bigNoCompCount": 87,
-    "bigNoCompAmount": 52344805910.0,
+    "totalAmount": 181831179509.0,
+    "noCompAmount": 57827879297.0,
+    "compAmount": 124003300212.0,
+    "noCompRate": 31.8,
+    "noCompCount": 156,
+    "compCount": 212,
+    "totalCount": 368,
+    "bigNoCompCount": 89,
+    "bigNoCompAmount": 54106436410.0,
     "maxLockInScore": 14855.7
   },
   "riskVendors": [
@@ -29,11 +29,11 @@
       "name": "株式会社ＮＴＴデータ",
       "category": "国内大手SI",
       "noCompAmount": 9110736203.0,
-      "noCompRate": 76.0,
-      "totalAmount": 11988348154.0,
+      "noCompRate": 68.1,
+      "totalAmount": 13374723154.0,
       "noCompCount": 12,
-      "totalCount": 20,
-      "lockInScore": 6924.2
+      "totalCount": 23,
+      "lockInScore": 6204.4
     },
     {
       "corporateNumber": "1020001071491",
@@ -50,23 +50,34 @@
       "corporateNumber": "9010401127151",
       "name": "シンプレクス株式会社",
       "category": "その他",
-      "noCompAmount": 1933800000.0,
+      "noCompAmount": 3515362500.0,
       "noCompRate": 100.0,
-      "totalAmount": 1933800000.0,
-      "noCompCount": 3,
-      "totalCount": 3,
-      "lockInScore": 1933.8
+      "totalAmount": 3515362500.0,
+      "noCompCount": 4,
+      "totalCount": 4,
+      "lockInScore": 3515.4
+    },
+    {
+      "corporateNumber": "8010401073462",
+      "name": "株式会社ＳＨＩＦＴ",
+      "category": "その他",
+      "noCompAmount": 1960280674.0,
+      "noCompRate": 95.7,
+      "totalAmount": 2047580674.0,
+      "noCompCount": 9,
+      "totalCount": 10,
+      "lockInScore": 1876.0
     },
     {
       "corporateNumber": "7011101033773",
       "name": "ＳＢテクノロジー株式会社",
       "category": "国内通信",
       "noCompAmount": 2080974000.0,
-      "noCompRate": 89.8,
-      "totalAmount": 2317254000.0,
+      "noCompRate": 88.6,
+      "totalAmount": 2348631000.0,
       "noCompCount": 4,
-      "totalCount": 6,
-      "lockInScore": 1868.7
+      "totalCount": 7,
+      "lockInScore": 1843.7
     },
     {
       "corporateNumber": "2010701032272",
@@ -80,37 +91,26 @@
       "lockInScore": 1792.6
     },
     {
-      "corporateNumber": "8010401073462",
-      "name": "株式会社ＳＨＩＦＴ",
-      "category": "その他",
-      "noCompAmount": 1780212674.0,
-      "noCompRate": 95.3,
-      "totalAmount": 1867512674.0,
-      "noCompCount": 8,
-      "totalCount": 9,
-      "lockInScore": 1696.5
-    },
-    {
       "corporateNumber": "8010001144647",
       "name": "ＫＰＭＧコンサルティング株式会社",
       "category": "その他",
       "noCompAmount": 1689630000.0,
-      "noCompRate": 92.5,
-      "totalAmount": 1826630000.0,
+      "noCompRate": 89.5,
+      "totalAmount": 1888630000.0,
       "noCompCount": 4,
-      "totalCount": 7,
-      "lockInScore": 1562.9
+      "totalCount": 8,
+      "lockInScore": 1512.2
     },
     {
       "corporateNumber": "1010401023102",
       "name": "ＰｗＣコンサルティング合同会社",
       "category": "その他",
       "noCompAmount": 1788585969.0,
-      "noCompRate": 74.1,
-      "totalAmount": 2413585969.0,
+      "noCompRate": 59.3,
+      "totalAmount": 3018585969.0,
       "noCompCount": 5,
-      "totalCount": 10,
-      "lockInScore": 1325.3
+      "totalCount": 12,
+      "lockInScore": 1060.6
     },
     {
       "corporateNumber": "1010401084788",
@@ -245,17 +245,6 @@
       "lockInScore": 395.5
     },
     {
-      "corporateNumber": "3010601021713",
-      "name": "株式会社日立社会情報サービス",
-      "category": "国内大手SI",
-      "noCompAmount": 390800000.0,
-      "noCompRate": 74.8,
-      "totalAmount": 522494000.0,
-      "noCompCount": 2,
-      "totalCount": 4,
-      "lockInScore": 292.3
-    },
-    {
       "corporateNumber": "9010005005761",
       "name": "一般社団法人行政情報システム研究所",
       "category": "その他",
@@ -276,6 +265,17 @@
       "noCompCount": 2,
       "totalCount": 2,
       "lockInScore": 239.4
+    },
+    {
+      "corporateNumber": "3010601021713",
+      "name": "株式会社日立社会情報サービス",
+      "category": "国内大手SI",
+      "noCompAmount": 390800000.0,
+      "noCompRate": 60.2,
+      "totalAmount": 649484000.0,
+      "noCompCount": 2,
+      "totalCount": 5,
+      "lockInScore": 235.3
     },
     {
       "corporateNumber": "2011101010430",
@@ -311,6 +311,17 @@
       "projectId": "",
       "fiscalYear": 2024,
       "category": "国内大手SI"
+    },
+    {
+      "id": "0000000000000576161",
+      "name": "令和８年度マイナポータルフロントの改善及び運用",
+      "vendorName": "シンプレクス株式会社",
+      "price": 1581562500.0,
+      "bidMethodName": "随意契約・公募型プロポーザル",
+      "awardDate": "2026-03-27",
+      "projectId": "",
+      "fiscalYear": 2025,
+      "category": "その他"
     },
     {
       "id": "0000000000000490027",
@@ -828,60 +839,49 @@
       "projectId": "14",
       "fiscalYear": 2024,
       "category": "その他"
-    },
-    {
-      "id": "0000000000000469346",
-      "name": "令和６年度マイナンバーカード利用促進イベントの開催業務",
-      "vendorName": "株式会社スコープ",
-      "price": 225057349.0,
-      "bidMethodName": "随意契約・公募型プロポーザル",
-      "awardDate": "2024-11-22",
-      "projectId": "7644",
-      "fiscalYear": 2024,
-      "category": "その他"
     }
   ],
   "methodSummary": [
     {
       "method": "一般競争入札・総合評価",
-      "count": 118,
-      "amount": 108520184653.0,
+      "count": 129,
+      "amount": 121194261653.0,
       "isNoComp": false
     },
     {
       "method": "随意契約・公募型プロポーザル",
-      "count": 152,
-      "amount": 55973555629.0,
+      "count": 156,
+      "amount": 57827879297.0,
       "isNoComp": true
     },
     {
       "method": "一般競争入札・最低価格",
-      "count": 76,
-      "amount": 2449690544.0,
+      "count": 81,
+      "amount": 2753754899.0,
       "isNoComp": false
     },
     {
       "method": "指名競争入札",
-      "count": 1,
-      "amount": 23906660.0,
+      "count": 2,
+      "amount": 55283660.0,
       "isNoComp": false
     }
   ],
   "priceDistribution": [
     {
       "tier": "10億円以上",
-      "count": 8,
-      "amount": 26225897218.0
+      "count": 9,
+      "amount": 27807459718.0
     },
     {
       "tier": "1〜10億円",
-      "count": 79,
-      "amount": 26118908692.0
+      "count": 80,
+      "amount": 26298976692.0
     },
     {
       "tier": "1千万〜1億円",
-      "count": 63,
-      "amount": 3612838810.0
+      "count": 65,
+      "amount": 3705531978.0
     },
     {
       "tier": "1千万円未満",

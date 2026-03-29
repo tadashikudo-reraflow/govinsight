@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "5542",
   "name": "ガバメントソリューションサービス（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 51174799352.0,
+  "totalAmount": 58504570932.0,
   "vendorCount": 10,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -2049,6 +2049,33 @@
       "vendorName": "日本電気株式会社",
       "corporateNumber": "7010401022916",
       "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000583400",
+      "name": "令和８年度ガバメントソリューションサービスに係る端末等の配送業務",
+      "awardDate": "2026-03-25",
+      "price": 9771580.0,
+      "vendorName": "佐川急便株式会社",
+      "corporateNumber": "8130001000053",
+      "bidMethodName": "一般競争入札・最低価格"
+    },
+    {
+      "id": "0000000000000550232",
+      "name": "令和８年度デジタル庁ガバメントソリューションサービスの府省LAN統合に係る作業支援",
+      "awardDate": "2026-03-26",
+      "price": 440000000.0,
+      "vendorName": "ＰｗＣコンサルティング合同会社",
+      "corporateNumber": "1010401023102",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000560652",
+      "name": "最高裁判所等のガバメントソリューションサービスへの移行に係る端末の借入等",
+      "awardDate": "2026-03-26",
+      "price": 6880000000.0,
+      "vendorName": "日本電気株式会社",
+      "corporateNumber": "7010401022916",
+      "bidMethodName": "一般競争入札・総合評価"
     }
   ]
 }

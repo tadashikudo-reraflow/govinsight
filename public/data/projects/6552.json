@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T21:55:59Z",
+  "updatedAt": "2026-03-29T21:20:07Z",
   "id": "6552",
   "name": "データカタログ（情報通信技術調達等適正・効率化推進費）",
   "ministry": "デジタル庁",
@@ -12,7 +12,7 @@
   "startYear": "2021",
   "endYear": "",
   "rsUrl": "",
-  "totalAmount": 131694000.0,
+  "totalAmount": 258684000.0,
   "vendorCount": 1,
   "latestExecRate": null,
   "latestBudget": 0.0,
@@ -184,6 +184,15 @@
       "name": "e-Govデータポータルサービス2025年度運用・保守",
       "awardDate": "2025-03-18",
       "price": 103800000.0,
+      "vendorName": "株式会社日立社会情報サービス",
+      "corporateNumber": "3010601021713",
+      "bidMethodName": "一般競争入札・総合評価"
+    },
+    {
+      "id": "0000000000000568546",
+      "name": "e-Govデータポータルサービス2026年度運用・保守",
+      "awardDate": "2026-03-24",
+      "price": 126990000.0,
       "vendorName": "株式会社日立社会情報サービス",
       "corporateNumber": "3010601021713",
       "bidMethodName": "一般競争入札・総合評価"
